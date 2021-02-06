@@ -8,8 +8,8 @@ body {
   background:#f0f0f0;
 }
 
-h1 { font-size:2.4rem;font-weight:300;color:#000; }
-h2 { font-size:2rem;font-weight:500;color:#000; }
+h1 { font-size:3rem;font-weight:300;color:#000; }
+h2 { font-size:2rem;font-weight:600;color:#000; }
 h3 { font-size:1.6rem;font-weight:700;color:#000; }
 
 a { font-weight:700;color:#000;text-decoration:none;border-bottom:2px dotted #000; }
@@ -34,28 +34,31 @@ footer a { display:inline-block;margin:0 10px;border:0; }
 footer a svg { height:28px;fill:#fff; }
 footer a:hover svg, footer a:active svg { fill:#7abc50; }
 
-.spotlight img { width:100vw; }
+.spotlight { background:url('images/bg-iso-crop.png') no-repeat center right/cover;height:400px;width:100vw; }
 
 .container { margin:0 auto; }
 h1 { text-align:center;margin:0 0 40px 0; }
-.container h3 { padding:40px;text-align:center;background:#fff; }
+.container > h3 { padding:40px;text-align:center;background:#fff; }
+.container > span { display:block;font-size:1.2rem;text-align:center;margin-bottom:40px; }
 
-.log { background:#fff;padding:100px;display:grid;grid-template-columns:160px auto;grid-gap:2rem; }
+.log { background:#fff;padding:60px;display:grid;grid-template-columns:160px auto;grid-gap:2rem; }
+.archive { background:#fff;padding:60px; }
 .time { background:#f0f0f0;display:flex;align-items:center;justify-content:center; }
 .time h3 { margin:0; }
 .info { background:#f8f8f8;padding:20px; }
 
-.boys { display:inline-flex;flex-wrap:wrap; }
-.boys span {
+.log .boys { display:inline-flex;flex-wrap:wrap; }
+.log .boys span {
   display:inline-block;
   position:relative;
   border-radius:10px;
   margin:10px;
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-right:16px;
-  font-weight:600;
+  padding-top:8px;
+  padding-bottom:8px;
+  padding-right:14px;
   color:#fff;
+  font-size:13px;
+  font-weight:600;
 }
 .boys span::before {
   content:'';
@@ -64,51 +67,187 @@ h1 { text-align:center;margin:0 0 40px 0; }
   background-repeat:no-repeat;
   top:-10px;
   left:-10px;
-  width:60px;
-  height:60px;
+  width:52px;
+  height:52px;
+}
+.archive:not(:last-of-type) { margin-bottom:60px; }
+.archive .boys { position:relative; }
+.archive .boys img { max-width:80px;max-height:90px;display:inline-block;position:absolute;top:-20px;left:-20px; }
+.archive h3 { margin:0;padding:10px 20px 10px 20px;color:#fff; }
+
+.archive .boys.arrested::after {
+  content:'arrested';
+  position:absolute;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  top:-50px;
+  right:0;
+  height:100%;
+  width:100%;
+  color:#f32845;
+  font-size:1.2rem;
+  font-weight:700;
 }
 
-.boys .biggs { background:#606060;padding-left:44px; }
-.boys .biggs::before { background-image:url('images/boys/biggs.png'); }
+.biggs { background:#606060;padding-left:38px; }
+.biggs::before { background-image:url('images/boys/biggs.png'); }
 
-.boys .righthand { background:#f44038;padding-left:54px; }
-.boys .righthand::before { background-image:url('images/boys/righthand.png'); }
+.righthand { background:#f44038;padding-left:44px; }
+.righthand::before { background-image:url('images/boys/righthand.png'); }
 
-.boys .rufio { background:#e05907;padding-left:46px; }
-.boys .rufio::before { background-image:url('images/boys/rufio.png'); }
+.rufio { background:#e05907;padding-left:42px; }
+.rufio::before { background-image:url('images/boys/rufio.png'); }
 
-.boys .pezzola { background:#909090;padding-left:58px; }
-.boys .pezzola::before { background-image:url('images/boys/pezzola.png'); }
+.pezzola { background:#909090;padding-left:52px; }
+.pezzola::before { background-image:url('images/boys/pezzola.png'); }
 
-.boys .milkshake { background:#047aff;padding-left:48px; }
-.boys .milkshake::before { background-image:url('images/boys/milkshake.png'); }
+.milkshake { background:#047aff;padding-left:42px; }
+.milkshake::before { background-image:url('images/boys/milkshake.png'); }
 
-.boys .bipolar { background:#eea410;padding-left:44px; }
-.boys .bipolar::before { background-image:url('images/boys/bipolar.png'); }
+.bipolar { background:#eea410;padding-left:38px; }
+.bipolar::before { background-image:url('images/boys/bipolar.png'); }
 
-.boys .kindakyle { background:#143674;padding-left:58px; }
-.boys .kindakyle::before { background-image:url('images/boys/kindakyle.png'); }
+.sgtpepper { background:#9c8054;padding-left:40px; }
+.sgtpepper::before { background-image:url('images/boys/sgtpepper.png'); }
 
-.boys .strawhat { background:#363636;padding-left:60px; }
-.boys .strawhat::before { background-image:url('images/boys/strawhat.png'); }
+.kindakyle { background:#143674;padding-left:52px; }
+.kindakyle::before { background-image:url('images/boys/kindakyle.png'); }
 
-.boys .weeirish { background:#20a132;padding-left:52px; }
-.boys .weeirish::before { background-image:url('images/boys/weeirish.png'); }
+.strawhat { background:#363636;padding-left:52px; }
+.strawhat::before { background-image:url('images/boys/strawhat.png'); }
 
-.boys .templar { background:#db1b11;padding-left:44px; }
-.boys .templar::before { background-image:url('images/boys/templar.png'); }
+.weeirish { background:#20a132;padding-left:46px; }
+.weeirish::before { background-image:url('images/boys/weeirish.png'); }
 
-.boys .rev { background:#000;padding-left:48px; }
-.boys .rev::before { background-image:url('images/boys/rev.png'); }
+.squirrel { background:#575783;padding-left:40px; }
+.squirrel::before { background-image:url('images/boys/squirrel.png'); }
 
-.boys .mamasboy { background:#7ec5f3;padding-left:54px; }
-.boys .mamasboy::before { background-image:url('images/boys/mamasboy.png'); }
+.rev { background:#000;padding-left:42px; }
+.rev::before { background-image:url('images/boys/rev.png'); }
 
-.boys .dread { background:#805e37;padding-left:48px; }
-.boys .dread::before { background-image:url('images/boys/dread.png'); }
+.mamasboy { background:#7ec5f3;padding-left:52px; }
+.mamasboy::before { background-image:url('images/boys/mamasboy.png'); }
 
-.boys .smiles { background:#fb5588;padding-left:42px; }
-.boys .smiles::before { background-image:url('images/boys/smiles.png'); }
+.dread { background:#805e37;padding-left:44px; }
+.dread::before { background-image:url('images/boys/dread.png'); }
+
+.smiles { background:#e41554;padding-left:38px; }
+.smiles::before { background-image:url('images/boys/smiles.png'); }
+
+.idaho { background:#ca4151;padding-left:42px; }
+.idaho::before { background-image:url('images/boys/idaho.png'); }
+
+.twins { background:#52715b;padding-left:50px; }
+.twins::before { background-image:url('images/boys/twins.png'); }
+
+.grayua { background:#a5b5bf;padding-left:44px; }
+.grayua::before { background-image:url('images/boys/grayua.png'); }
+
+.flanders { background:#276a32;padding-left:44px; }
+.flanders::before { background-image:url('images/boys/flanders.png'); }
+
+.dog { background:#24262d;padding-left:42px; }
+.dog::before { background-image:url('images/boys/dog.png'); }
+
+.dbf { background:#464a55;padding-left:42px; }
+.dbf::before { background-image:url('images/boys/dbf.png'); }
+
+.horseshoe { background:#ff4f20;padding-left:48px; }
+.horseshoe::before { background-image:url('images/boys/horseshoe.png'); }
+
+.skeletor { background:#34466b;padding-left:48px; }
+.skeletor::before { background-image:url('images/boys/skeletor.png'); }
+
+.tekk { background:#c69c0b;padding-left:44px; }
+.tekk::before { background-image:url('images/boys/tekk.png'); }
+
+.graymo { background:#636e80;padding-left:36px; }
+.graymo::before { background-image:url('images/boys/graymo.png'); }
+
+.tread { background:#efdb4f;padding-left:40px; }
+.tread::before { background-image:url('images/boys/tread.png'); }
+
+.goldgramps { background:#bb8231;padding-left:36px; }
+.goldgramps::before { background-image:url('images/boys/goldgramps.png'); }
+
+.joker { background:#8840b5;padding-left:48px; }
+.joker::before { background-image:url('images/boys/joker.png'); }
+
+.bunyan { background:#e40b43;padding-left:48px; }
+.bunyan::before { background-image:url('images/boys/bunyan.png'); }
+
+.mcgavin { background:#5b4e4a;padding-left:44px; }
+.mcgavin::before { background-image:url('images/boys/mcgavin.png'); }
+
+.goggles { background:#a4bb23;padding-left:36px; }
+.goggles::before { background-image:url('images/boys/goggles.png'); }
+
+.templeowl { background:#a80e3d;padding-left:46px; }
+.templeowl::before { background-image:url('images/boys/templeowl.png'); }
+
+.giant { background:#2d3a33;padding-left:36px; }
+.giant::before { background-image:url('images/boys/giant.png'); }
+
+.butterfingers { background:#f3d00c;padding-left:36px; }
+.butterfingers::before { background-image:url('images/boys/butterfingers.png'); }
+
+.chinstrap { background:#2b4788;padding-left:36px; }
+.chinstrap::before { background-image:url('images/boys/chinstrap.png'); }
+
+.pesci { background:#72372b;padding-left:36px; }
+.pesci::before { background-image:url('images/boys/pesci.png'); }
+
+.redflannel { background:#b1260f;padding-left:36px; }
+.redflannel::before { background-image:url('images/boys/redflannel.png'); }
+
+.redanon { background:#ff1e00;padding-left:36px; }
+.redanon::before { background-image:url('images/boys/redanon.png'); }
+
+.bigblue { background:#4461ac;padding-left:36px; }
+.bigblue::before { background-image:url('images/boys/bigblue.png'); }
+
+.zztop { background:#8b7041;padding-left:36px; }
+.zztop::before { background-image:url('images/boys/zztop.png'); }
+
+.thesuit { background:#2c3a76;padding-left:36px; }
+.thesuit::before { background-image:url('images/boys/thesuit.png'); }
+
+.maroon { background:#761233;padding-left:36px; }
+.maroon::before { background-image:url('images/boys/maroon.png'); }
+
+.southwest { background:#a04b42;padding-left:36px; }
+.southwest::before { background-image:url('images/boys/southwest.png'); }
+
+.warpaint { background:#848c84;padding-left:36px; }
+.warpaint::before { background-image:url('images/boys/southwest.png'); }
+
+.rwds { background:#e7123a;padding-left:36px; }
+.rwds::before { background-image:url('images/boys/rwds.png'); }
+
+.mohawk { background:#3a3f4e;padding-left:36px; }
+.mohawk::before { background-image:url('images/boys/mohawk.png'); }
+
+.chip { background:#a7001b;padding-left:36px; }
+.chip::before { background-image:url('images/boys/chip.png'); }
+
+.prettyboy { background:#bfab92;padding-left:36px; }
+.prettyboy::before { background-image:url('images/boys/prettyboy.png'); }
+
+.tiny { background:#c0c6cc;padding-left:36px; }
+.tiny::before { background-image:url('images/boys/tiny.png'); }
+
+.screenshots { padding:20px 0; }
+.log .screenshots img { height:130px; }
+.archive .screenshots img { height:160px; }
+.screenshots .spacer { display:inline-block;width:6px;margin:0 6px;height:130px;background:#d0d0d0; }
+
+.source { font-size:.9rem;border-top:3px solid #fff;padding-top:10px; }
+.source svg { height:20px;vertical-align:bottom;margin-right:6px; }
+.source a { display:inline-block;margin-top:10px; }
+.source .spacer { display:inline-block;width:6px;height:20px;margin:0 10px -6px 10px;background:#d0d0d0; }
+
+.copyright { font-size:.8rem;padding:40px 0 0;text-align:center; }
 
 .floorplans { background:#fff;}
 .floorplans > div a:first-of-type { display:block;border:4px solid #000;margin-bottom:6px; }
@@ -148,7 +287,7 @@ h1 { text-align:center;margin:0 0 40px 0; }
   .commons { width:60%; }
 }
 @media only screen and (min-width:1200px) {
-  .container { width:70%;padding:140px 0; }
+  .container { width:70%;padding:100px 0; }
   header { height:80px; }
   header ul {
     list-style-type:none;
@@ -158,7 +297,7 @@ h1 { text-align:center;margin:0 0 40px 0; }
     justify-content:space-between;
   }
   header ul li:first-of-type { width:80%; }
-  .floorplans { padding:140px 0; }
+  .floorplans { padding:100px 0; }
   .floorplans > div:not(.commons) { width:70%;margin:0 auto 60px;display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:40px;text-align:center; }
   .commons { width:28%; }
 }
