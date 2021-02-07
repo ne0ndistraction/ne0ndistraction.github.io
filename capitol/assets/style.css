@@ -96,19 +96,19 @@ h1 { text-align:center;margin:0 0 40px 0; }
 .righthand { background:#f44038;padding-left:44px; }
 .righthand::before { background-image:url('images/boys/righthand.png'); }
 
-.rufio { background:#e05907;padding-left:42px; }
+.rufio { background:#e05907;padding-left:40px; }
 .rufio::before { background-image:url('images/boys/rufio.png'); }
 
 .pezzola { background:#909090;padding-left:52px; }
 .pezzola::before { background-image:url('images/boys/pezzola.png'); }
 
-.milkshake { background:#047aff;padding-left:42px; }
+.milkshake { background:#047aff;padding-left:44px; }
 .milkshake::before { background-image:url('images/boys/milkshake.png'); }
 
 .bipolar { background:#eea410;padding-left:38px; }
 .bipolar::before { background-image:url('images/boys/bipolar.png'); }
 
-.sgtpepper { background:#9c8054;padding-left:40px; }
+.sgtpepper { background:#9c8054;padding-left:38px; }
 .sgtpepper::before { background-image:url('images/boys/sgtpepper.png'); }
 
 .kindakyle { background:#143674;padding-left:52px; }
@@ -117,7 +117,7 @@ h1 { text-align:center;margin:0 0 40px 0; }
 .strawhat { background:#363636;padding-left:52px; }
 .strawhat::before { background-image:url('images/boys/strawhat.png'); }
 
-.weeirish { background:#20a132;padding-left:46px; }
+.weeirish { background:#20a132;padding-left:38px; }
 .weeirish::before { background-image:url('images/boys/weeirish.png'); }
 
 .squirrel { background:#575783;padding-left:40px; }
@@ -126,10 +126,10 @@ h1 { text-align:center;margin:0 0 40px 0; }
 .rev { background:#000;padding-left:42px; }
 .rev::before { background-image:url('images/boys/rev.png'); }
 
-.mamasboy { background:#7ec5f3;padding-left:52px; }
+.mamasboy { background:#7ec5f3;padding-left:50px; }
 .mamasboy::before { background-image:url('images/boys/mamasboy.png'); }
 
-.dread { background:#805e37;padding-left:44px; }
+.dread { background:#805e37;padding-left:40px; }
 .dread::before { background-image:url('images/boys/dread.png'); }
 
 .smiles { background:#e41554;padding-left:38px; }
@@ -141,7 +141,7 @@ h1 { text-align:center;margin:0 0 40px 0; }
 .twins { background:#52715b;padding-left:50px; }
 .twins::before { background-image:url('images/boys/twins.png'); }
 
-.grayua { background:#a5b5bf;padding-left:44px; }
+.grayua { background:#a5b5bf;padding-left:46px; }
 .grayua::before { background-image:url('images/boys/grayua.png'); }
 
 .flanders { background:#276a32;padding-left:44px; }
@@ -159,10 +159,10 @@ h1 { text-align:center;margin:0 0 40px 0; }
 .skeletor { background:#34466b;padding-left:48px; }
 .skeletor::before { background-image:url('images/boys/skeletor.png'); }
 
-.tekk { background:#c69c0b;padding-left:44px; }
+.tekk { background:#c69c0b;padding-left:38px; }
 .tekk::before { background-image:url('images/boys/tekk.png'); }
 
-.graymo { background:#636e80;padding-left:36px; }
+.graymo { background:#636e80;padding-left:40px; }
 .graymo::before { background-image:url('images/boys/graymo.png'); }
 
 .tread { background:#efdb4f;padding-left:40px; }
@@ -180,61 +180,61 @@ h1 { text-align:center;margin:0 0 40px 0; }
 .mcgavin { background:#5b4e4a;padding-left:44px; }
 .mcgavin::before { background-image:url('images/boys/mcgavin.png'); }
 
-.goggles { background:#a4bb23;padding-left:36px; }
+.goggles { background:#a4bb23;padding-left:40px; }
 .goggles::before { background-image:url('images/boys/goggles.png'); }
 
 .templeowl { background:#a80e3d;padding-left:46px; }
 .templeowl::before { background-image:url('images/boys/templeowl.png'); }
 
-.giant { background:#2d3a33;padding-left:36px; }
+.giant { background:#2d3a33;padding-left:32px; }
 .giant::before { background-image:url('images/boys/giant.png'); }
 
-.butterfingers { background:#f3d00c;padding-left:36px; }
+.butterfingers { background:#f3d00c;padding-left:38px; }
 .butterfingers::before { background-image:url('images/boys/butterfingers.png'); }
 
-.chinstrap { background:#2b4788;padding-left:36px; }
+.chinstrap { background:#2b4788;padding-left:32px; }
 .chinstrap::before { background-image:url('images/boys/chinstrap.png'); }
 
-.pesci { background:#72372b;padding-left:36px; }
+.pesci { background:#72372b;padding-left:44px; }
 .pesci::before { background-image:url('images/boys/pesci.png'); }
 
-.redflannel { background:#b1260f;padding-left:36px; }
+.redflannel { background:#b1260f;padding-left:40px; }
 .redflannel::before { background-image:url('images/boys/redflannel.png'); }
 
-.redanon { background:#ff1e00;padding-left:36px; }
+.redanon { background:#ff1e00;padding-left:44px; }
 .redanon::before { background-image:url('images/boys/redanon.png'); }
 
-.bigblue { background:#4461ac;padding-left:36px; }
+.bigblue { background:#4461ac;padding-left:40px; }
 .bigblue::before { background-image:url('images/boys/bigblue.png'); }
 
 .zztop { background:#8b7041;padding-left:36px; }
 .zztop::before { background-image:url('images/boys/zztop.png'); }
 
-.thesuit { background:#2c3a76;padding-left:36px; }
+.thesuit { background:#2c3a76;padding-left:42px; }
 .thesuit::before { background-image:url('images/boys/thesuit.png'); }
 
 .maroon { background:#761233;padding-left:36px; }
 .maroon::before { background-image:url('images/boys/maroon.png'); }
 
-.southwest { background:#a04b42;padding-left:36px; }
+.southwest { background:#a04b42;padding-left:40px; }
 .southwest::before { background-image:url('images/boys/southwest.png'); }
 
-.warpaint { background:#848c84;padding-left:36px; }
+.warpaint { background:#848c84;padding-left:40px; }
 .warpaint::before { background-image:url('images/boys/southwest.png'); }
 
-.rwds { background:#e7123a;padding-left:36px; }
+.rwds { background:#e7123a;padding-left:42px; }
 .rwds::before { background-image:url('images/boys/rwds.png'); }
 
-.mohawk { background:#3a3f4e;padding-left:36px; }
+.mohawk { background:#3a3f4e;padding-left:38px; }
 .mohawk::before { background-image:url('images/boys/mohawk.png'); }
 
 .chip { background:#a7001b;padding-left:36px; }
 .chip::before { background-image:url('images/boys/chip.png'); }
 
-.prettyboy { background:#bfab92;padding-left:36px; }
+.prettyboy { background:#bfab92;padding-left:40px; }
 .prettyboy::before { background-image:url('images/boys/prettyboy.png'); }
 
-.tiny { background:#c0c6cc;padding-left:36px; }
+.tiny { background:#c0c6cc;padding-left:40px; }
 .tiny::before { background-image:url('images/boys/tiny.png'); }
 
 .screenshots { padding:20px 0; }
