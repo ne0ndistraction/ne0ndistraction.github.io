@@ -254,7 +254,7 @@ h1 { text-align:center;margin:0 0 40px 0; }
 
 .screenshots { padding:20px 0; }
 .log .screenshots img { height:130px; }
-.archive .screenshots img { height:136px; }
+.archive .screenshots img { height:128px; }
 .screenshots .spacer { display:inline-block;width:6px;margin:0 6px;height:130px;background:#d0d0d0; }
 
 .source { font-size:.9rem;border-top:3px solid #fff;padding-top:10px; }
