@@ -237,9 +237,24 @@ h1 { text-align:center;margin:0 0 40px 0; }
 .tiny { background:#c0c6cc;padding-left:40px; }
 .tiny::before { background-image:url('images/boys/tiny.png'); }
 
+.magpul { background:#c0c6cc;padding-left:40px; }
+.magpul::before { background-image:url('images/boys/magpul.png'); }
+
+.badge { background:#bb9a87;padding-left:40px; }
+.badge::before { background-image:url('images/boys/badge.png'); }
+
+.usa { background:#344253;padding-left:40px; }
+.usa::before { background-image:url('images/boys/usa.png'); }
+
+.viper { background:#515c4a;padding-left:36px; }
+.viper::before { background-image:url('images/boys/viper.png'); }
+
+.ets { background:#7e8397;padding-left:36px; }
+.ets::before { background-image:url('images/boys/ets.png'); }
+
 .screenshots { padding:20px 0; }
 .log .screenshots img { height:130px; }
-.archive .screenshots img { height:160px; }
+.archive .screenshots img { height:136px; }
 .screenshots .spacer { display:inline-block;width:6px;margin:0 6px;height:130px;background:#d0d0d0; }
 
 .source { font-size:.9rem;border-top:3px solid #fff;padding-top:10px; }
