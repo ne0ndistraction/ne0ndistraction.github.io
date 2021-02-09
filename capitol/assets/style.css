@@ -252,10 +252,38 @@ h1 { text-align:center;margin:0 0 40px 0; }
 .ets { background:#7e8397;padding-left:36px; }
 .ets::before { background-image:url('images/boys/ets.png'); }
 
+.boys { background:#000; }
+
+.proudboy::before {
+  content:'PB';
+  position:absolute;
+  top:10px;
+  right:15px;
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  color:#000;
+  background:#ffe00e;
+  font-weight:700;
+  font-size:.9rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.orangetape::before {
+  content:'';
+  position:absolute;
+  top:15px;
+  right:15px;
+  width:50px;
+  height:20px;
+  background:#ff4e08;
+}
+.woodland { background:#6c7f35; }
+
 .screenshots { padding:20px 0; }
 .log .screenshots img { height:130px; }
 .archive .screenshots img { height:128px; }
-.screenshots .spacer { display:inline-block;width:6px;margin:0 6px;height:130px;background:#d0d0d0; }
 
 .source { font-size:.9rem;border-top:3px solid #fff;padding-top:10px; }
 .source svg { height:20px;vertical-align:bottom;margin-right:6px; }
