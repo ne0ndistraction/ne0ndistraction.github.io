@@ -252,7 +252,7 @@ h1 { text-align:center;margin:0 0 40px 0; }
 .ets { background:#7e8397;padding-left:36px; }
 .ets::before { background-image:url('images/boys/ets.png'); }
 
-.boys { background:#000; }
+.boys { background:#000;text-transform:lowercase; }
 
 .proudboy::before {
   content:'PB';
