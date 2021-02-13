@@ -401,7 +401,7 @@ h1 { text-align:center;margin:0 0 40px 0; }
 
 .posts-list > div:not(.expand):not(.intro):not(:last-of-type) { margin-bottom:40px; }
 .posts-list > div:not(.expand) a { font-size:1.4rem;font-weight:700; }
-.posts-list > div.expand { position:relative;margin-top:20px; }
+.posts-list > div.expand { position:relative;margin:20px 0; }
 .posts-list div > div:not(:last-of-type) { margin-bottom:40px; }
 .posts-list div >  div:not(.note) {
   border:4px solid #000;
