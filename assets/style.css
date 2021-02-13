@@ -431,9 +431,9 @@ h1 { text-align:center;margin:0 0 40px 0; }
   color:#c0c0c0;
   transform:scaleX(1.2);
 }
-.posts-list > div.expand:target > .close:hover, .posts-list > div.expand div:target > .close { color:#000; }
-.posts-list > div > div > span { position:relative; }
-.posts-list > div > div > span a { position:absolute;right:14px;top:10px;color:#fff; }
+.posts-list > div.expand:target > .close:hover, .posts-list > div.expand div:target > .close:hover { color:#000; }
+.posts-list > div > div > span { position:relative;font-weight:500;min-height:22px; }
+.posts-list > div > div > span a { position:absolute;right:14px;top:14px;color:#fff;font-size:.9rem;letter-spacing:1px; }
 .note { background:#f0f0f0;margin:14px;border-radius:8px;padding:14px;font-style:italic; }
 .intro { margin:-30px 0 60px 0;font-size:1.2rem;text-align:center; }
 
