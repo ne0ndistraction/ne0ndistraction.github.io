@@ -444,7 +444,7 @@ h1 { text-align:center;margin:0 0 40px 0; }
 .article-list > div { font-size:1.2rem;margin-bottom:20px; }
 .osint .intro, .osint h1 { text-align:left; }
 .osint h1 { margin-bottom:20px; }
-article { width:60%;margin:0 auto;background:#fff;padding:80px;font-size:1.2rem;line-height:1.6; }
+article { background:#fff;padding:80px;font-size:1.2rem;line-height:1.6; }
 article h1 { font-size:2.2rem;font-weight:500;text-align:left;margin-bottom:10px;line-height:1.2; }
 blockquote { background:#f0f0f0;padding:30px;border-radius:10px;font-size:1rem;margin:30px; }
 article ul  { margin:20px 40px 40px;padding:0;font-size:1rem; }
@@ -453,6 +453,8 @@ article img { width:100%; }
 article h3 { font-weight:500;margin-top:40px;margin-bottom:10px; }
 article img.med { width:70%;margin:30px auto; }
 .center { text-align:center; }
+label { font-size:.9rem; }
+article small em { color:#888; }
 
 table { width:100%;font-size:1rem;overflow-x:scroll;margin-bottom:60px; }
 table th { background:#000;color:#fff; }
