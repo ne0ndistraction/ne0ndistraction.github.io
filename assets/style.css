@@ -178,6 +178,12 @@ h1 { text-align:center;margin:0 0 20px 0; }
 .boys-nav a.snapon::before { background-image:url('../capitol/assets/images/boys/snapon.png'); }
 .boys-nav a.gtg::before { background-image:url('../capitol/assets/images/boys/gtg.png'); }
 .boys-nav a.tracksuit::before { background-image:url('../capitol/assets/images/boys/tracksuit.png'); }
+.boys-nav a.pickles::before { background-image:url('../capitol/assets/images/boys/pickles.png'); }
+.boys-nav a.floridahat::before { background-image:url('../capitol/assets/images/boys/floridahat.png'); }
+.boys-nav a.flagbeanie::before { background-image:url('../capitol/assets/images/boys/flagbeanie.png'); }
+.boys-nav a.curlybeard::before { background-image:url('../capitol/assets/images/boys/curlybeard.png'); }
+.boys-nav a.yellowscarf::before { background-image:url('../capitol/assets/images/boys/yellowscarf.png'); }
+.boys-nav a.greenghoul::before { background-image:url('../capitol/assets/images/boys/greenghoul.png'); }
 
 .boys-nav ul { list-style:none;margin:0;padding:0;width:100%;display:grid;grid-template-columns:repeat(auto-fill, minmax(140px, 1fr));grid-gap:10px; }
 .boys-nav ul li { position:relative;height:160px;}
@@ -225,6 +231,13 @@ h1 { text-align:center;margin:0 0 20px 0; }
 }
 .woodland { background:#6c7f35; }
 
+.identified { background:#000;padding:10px;width:80%;margin:0 auto 40px; }
+.identified img { display:block;width:100%;margin:0 auto; }
+.identified a { display:block;margin-top:10px;background:#fff;padding:10px;text-align:center; }
+.identified svg { width:24px;vertical-align:top;margin-right:4px;transition:all .2s ease-in; }
+.identified a:hover svg { fill:#00acee; }
+
+h4.thread span { color:#ccc; }
 h4.thread a:hover,
 h1.thread a:hover { color:#00acee; }
 
@@ -236,8 +249,8 @@ h1.thread a:hover { color:#00acee; }
 .screenshots .spacer { display:inline-block;width:6px;height:128px;background:#d0d0d0; }
 
 .source { font-size:.9rem;padding:40px 0 0; }
-.source svg { height:20px;vertical-align:bottom;margin-right:6px; }
-.source a { display:inline-block;margin-top:10px; }
+.source svg { height:20px;vertical-align:top;margin-right:6px; }
+.source a { display:inline-block; }
 .source .spacer { display:inline-block;width:6px;height:20px;margin:0 10px -6px 10px;background:#d0d0d0; }
 
 
