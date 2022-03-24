@@ -16,10 +16,10 @@ body {
 .home .grid div a:hover img { border-color:#00ffe1; }
 .home .tabs li:hover { background:#00ffe1;color:#fff; }
 
-.floorplans, .floorplans .sub li.active::after  { background:#00ff2e; }
-.floorplans a:hover, .floorplans a:active, .floorplans .grid div a:hover { color:#00ff2e; }
-.floorplans .grid div a:hover img { border-color:#00ff2e; }
-.floorplans .tabs li:hover { background:#00ff2e;color:#000; }
+.floorplans, .floorplans .sub li.active::after  { background:#76ff33; }
+.floorplans a:hover, .floorplans a:active, .floorplans .grid div a:hover { color:#76ff33; }
+.floorplans .grid div a:hover img { border-color:#76ff33; }
+.floorplans .tabs li:hover { background:#76ff33;color:#000; }
 
 .identified, .identified .sub li.active::after  { background:#9800ff; }
 .identified a:hover, .identified a:active, .identified .grid div a:hover { color:#9800ff; }
@@ -70,8 +70,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .home section h2 { margin:0; }
 
 .floorplans section .grid a { color:#fff; }
-.floorplans section .grid a:hover img { border-color:#00ff2e; }
-.floorplans section .grid a:hover span { background:#00ff2e;color:#000; }
+.floorplans section .grid a:hover img { border-color:#76ff33; }
 .floorplans .detail img { width:100%; }
 
 .tweets { width:100%; }
