@@ -73,11 +73,11 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .floorplans section .grid a:hover img { border-color:#76ff33; }
 .floorplans .detail img { width:100%; }
 
-.tweets { width:100%; }
+.tweets { width:100%;border-bottom:4px solid #ddd; }
 .tweet-timeline h3 { margin-top:40px; }
 .tweets > div { display:grid;grid-template-columns:60px auto;grid-gap:30px 10px;background:#ddd;padding:15px 20px; }
-.tweets > div:first-child:not([style*='none']) { padding-top:20px; }
-.tweets > div:last-child:not([style*='none']) { padding-bottom:20px; }
+.tweets > div:first-child:not([style*='none']) { padding-top:30px; }
+.tweets > div:last-child:not([style*='none']) { padding-bottom:30px; }
 .tweets > div div { font-size:.9rem;font-weight:200;line-height:1.3;color:#000; }
 .tweets > div h4 { color:#000;font-size:.9rem;margin-bottom:4px; }
 .tweets > div span { display:block;margin-top:6px;color:#888;font-size:.7rem;font-weight:500; }
