@@ -57,7 +57,7 @@ header a { color:#fff;text-decoration:none; }
 .social  a svg { height:24px;fill:#fff; }
 .social  a:hover svg, .social  a:active svg { fill:#057dff;transition:all .2s ease-in; }
 
-section { position:relative; }
+body > div > section { position:relative; }
 section .grid { display:grid;margin-top:20px; }
 section .grid div { position:relative;text-align:center; }
 section .grid a { display:block;color:#fff; }
@@ -65,25 +65,106 @@ section .grid a img { display:block;margin-bottom:4px;max-width:calc(100% - 12px
 section .grid div span { display:block;font-size:.9rem; }
 section .grid:not(:last-of-type) { margin-bottom:80px; }
 
-.home section { display:grid;grid-template-rows:1fr auto;grid-template-columns:100%; }
-.home section > div:not(:last-of-type) { margin-bottom:80px; }
-.home section h2 { margin:0; }
+.home > div > section { display:grid;grid-template-rows:1fr auto;grid-template-columns:100%; }
+.home > div > section > div:not(:last-of-type) { margin-bottom:80px; }
+.home > div > section h2 { margin:0; }
 
 .floorplans section .grid a { color:#fff; }
 .floorplans section .grid a:hover img { border-color:#76ff33; }
 .floorplans .detail img { width:100%; }
 
-.tweets { width:100%;border-bottom:4px solid #ddd; }
-.tweet-timeline h3 { margin-top:40px; }
-.tweets > div { display:grid;grid-template-columns:60px auto;grid-gap:30px 10px;background:#ddd;padding:15px 20px; }
-.tweets > div:first-child:not([style*='none']) { padding-top:30px; }
-.tweets > div:last-child:not([style*='none']) { padding-bottom:30px; }
-.tweets > div div { font-size:.9rem;font-weight:200;line-height:1.3;color:#000; }
+.tweets-container { position:relative;padding-top:10px; }
+.date-picker { position:sticky;z-index:2;top:0;left:0;display:grid;grid-template-columns:auto auto;background:#000;padding:15px 0; }
+.date-picker > div { display:grid;grid-template-columns:auto 1fr;grid-gap:10px; }
+.date-picker h4 { font-size:.9rem;margin:0;margin-top:3px; }
+.dates { list-style:none;margin:0;padding:0; }
+.dates li { display:inline-block;text-align:center;margin:0 3px; }
+.dates li a {display:block;color:#fff;background:#222;padding:4px 8px;font-size:.8rem;font-weight:500;width:16px; }
+.dates li:hover a { background:#444; }
+.dates li.active a { color:#000;background:#fff; }
+.tweets { border-bottom:4px solid #ddd;margin-bottom:40px; }
+.tweets > div { word-break:break-word; }
+.tweet-timeline h3 { padding-top:50px;margin-top:-30px }
+
+.tweets .ali { background:#ddd url(../capitol/tweets/sm/ali.png); }
+.tweets .beanz { background:#ddd url(../capitol/tweets/sm/beanz.png); }
+.tweets .benjamin { background:#ddd url(../capitol/tweets/sm/benjamin.png); }
+.tweets .boebert { background:#ddd url(../capitol/tweets/sm/boebert.png); }
+.tweets .byrne { background:#ddd url(../capitol/tweets/sm/byrne.png); }
+.tweets .chambers { background:#ddd url(../capitol/tweets/sm/chambers.png); }
+.tweets .conwell { background:#ddd url(../capitol/tweets/sm/conwell.png); }
+.tweets .couch { background:#ddd url(../capitol/tweets/sm/couch.png); }
+.tweets .coudrey { background:#ddd url(../capitol/tweets/sm/coudrey.png); }
+.tweets .ccrump { background:#ddd url(../capitol/tweets/sm/ccrump.png); }
+.tweets .mcrump { background:#ddd url(../capitol/tweets/sm/mcrump.png); }
+.tweets .hamilton { background:#ddd url(../capitol/tweets/sm/hamilton.png); }
+.tweets .finchem { background:#ddd url(../capitol/tweets/sm/finchem.png); }
+.tweets .fleccas { background:#ddd url(../capitol/tweets/sm/fleccas.png); }
+.tweets .flynn { background:#ddd url(../capitol/tweets/sm/flynn.png); }
+.tweets .midge { background:#ddd url(../capitol/tweets/sm/midge.png); }
+.tweets .geist { background:#ddd url(../capitol/tweets/sm/geist.png); }
+.tweets .gibson { background:#ddd url(../capitol/tweets/sm/gibson.png); }
+.tweets .dgibson { background:#ddd url(../capitol/tweets/sm/dgibson.png); }
+.tweets .gracia { background:#ddd url(../capitol/tweets/sm/gracia.png); }
+.tweets .gosar { background:#ddd url(../capitol/tweets/sm/gosar.png); }
+.tweets .gray { background:#ddd url(../capitol/tweets/sm/gray.png); }
+.tweets .greene { background:#ddd url(../capitol/tweets/sm/greene.png); }
+.tweets .gutierrez { background:#ddd url(../capitol/tweets/sm/gutierrez.png); }
+.tweets .harrisjr { background:#ddd url(../capitol/tweets/sm/harrisjr.png); }
+.tweets .hice { background:#ddd url(../capitol/tweets/sm/hice.png); }
+.tweets .vernon { background:#ddd url(../capitol/tweets/sm/vernon.png); }
+.tweets .kakhu { background:#ddd url(../capitol/tweets/sm/kakhu.png); }
+.tweets .kirk { background:#ddd url(../capitol/tweets/sm/kirk.png); }
+.tweets .akremer { background:#ddd url(../capitol/tweets/sm/akremer.png); }
+.tweets .kkremer { background:#ddd url(../capitol/tweets/sm/kkremer.png); }
+.tweets .lane { background:#ddd url(../capitol/tweets/sm/lane.png); }
+.tweets .lawrence { background:#ddd url(../capitol/tweets/sm/lawrence.png); }
+.tweets .lindell { background:#ddd url(../capitol/tweets/sm/lindell.png); }
+.tweets .locke { background:#ddd url(../capitol/tweets/sm/locke.png); }
+.tweets .loh { background:#ddd url(../capitol/tweets/sm/loh.png); }
+.tweets .lutchman { background:#ddd url(../capitol/tweets/sm/lutchman.png); }
+.tweets .megan { background:#ddd url(../capitol/tweets/sm/megan.png); }
+.tweets .meadows { background:#ddd url(../capitol/tweets/sm/meadows.png); }
+.tweets .marika { background:#ddd url(../capitol/tweets/sm/marika.png); }
+.tweets .papadopoulos { background:#ddd url(../capitol/tweets/sm/papadopoulos.png); }
+.tweets .ngo { background:#ddd url(../capitol/tweets/sm/ngo.png); }
+.tweets .pearson { background:#ddd url(../capitol/tweets/sm/pearson.png); }
+.tweets .posobiec { background:#ddd url(../capitol/tweets/sm/posobiec.png); }
+.tweets .rae { background:#ddd url(../capitol/tweets/sm/rae.png); }
+.tweets .rebel { background:#ddd url(../capitol/tweets/sm/rebel.png); }
+.tweets .robinson { background:#ddd url(../capitol/tweets/sm/robinson.png); }
+.tweets .rondeau { background:#ddd url(../capitol/tweets/sm/rondeau.png); }
+.tweets .stockton { background:#ddd url(../capitol/tweets/sm/stockton.png); }
+.tweets .sullivan { background:#ddd url(../capitol/tweets/sm/sullivan.png); }
+.tweets .tatum { background:#ddd url(../capitol/tweets/sm/tatum.png); }
+.tweets .trump { background:#ddd url(../capitol/tweets/sm/trump.png); }
+.tweets .villa { background:#ddd url(../capitol/tweets/sm/villa.png); }
+.tweets .walker { background:#ddd url(../capitol/tweets/sm/walker.png); }
+.tweets .williams { background:#ddd url(../capitol/tweets/sm/williams.png); }
+.tweets .lft { background:#ddd url(../capitol/tweets/sm/lft.png); }
+.tweets .stopthestealus { background:#ddd url(../capitol/tweets/sm/stopthestealus.png); }
+
+.tweets div {
+  font-size:.9rem;
+  font-weight:200;
+  line-height:1.3;
+  color:#000;
+  padding:15px 30px 15px 90px;
+  background-repeat:no-repeat!important;
+  background-size:60px 60px!important;
+  background-position:15px 15px!important;
+}
 .tweets > div h4 { color:#000;font-size:.9rem;margin-bottom:4px; }
-.tweets > div span { display:block;margin-top:6px;color:#888;font-size:.7rem;font-weight:500; }
+.tweets > div span .deleted { color:#ff2c59;font-weight:600; }
+.tweets > div > span { display:block;margin-top:6px;color:#777;font-size:.7rem;font-weight:500; }
 .tweets > div img { width:100%; }
 .tweets > div a { font-weight:500;color:#000; }
 .tweets > div em { opacity:.4; }
+
+#hide { color:#057dff;font-weight:600;font-size:.9rem;width:100%;margin-top:-20px;cursor:pointer;transition:all .2s ease-in; }
+#hide:hover::before { color:#fff;transition:all .2s ease-in; }
+#hide::before { content:'hide filters';display:block;margin-bottom:20px; }
+#hide.show::before { content:'show filters'; }
 
 .twitter { color:#057dff; }
 
@@ -144,8 +225,9 @@ header ul li:not(:first-of-type) { color:#2afffe;text-align:right;padding-left:1
   left:0;
 }
 
-.tabs { list-style:none;margin:0 0 40px;padding:0;text-align:left; }
+.tabs { list-style:none;margin:0 0 20px;padding:0;text-align:left; }
 .tabs li { display:inline-block;margin:0 8px 12px 0;background:#222;color:#fff;padding:5px 10px;font-size:.8rem;font-weight:500;letter-spacing:.5px;cursor:pointer;transition:all .2s ease-in; }
+.tabs li.deleted { color:#ff2c59; }
 .tabs li.active { background:#fff;color:#000;cursor:default; }
 
 .container { margin:0 auto;position:relative; }
@@ -219,14 +301,14 @@ footer span:nth-child(5n) { transform:rotate(-60deg) scaleY(1.4);position:absolu
 
 /* media queries */
 @media only screen and (max-width:575px) {
-  body { font-size:14px; }
+  html { font-size:14px; }
   h1 { font-size:2.2rem;line-height:1; }
   h2 { font-size:1.4rem; }
   h3 { font-size:1.2rem; }
   h4 { font-size:1.1rem; }
   .copyright { font-size:.6rem; }
   .sub li { font-size:1rem; }
-  section { background:#000;margin:40px 20px;padding:30px; }
+  body > div > section { background:#000;margin:40px 20px;padding:20px;width:calc(100vw - 80px); }
   body:not(.floorplans) .grid { grid-template-columns:1fr 1fr;grid-gap:20px; }
   .floorplans section .grid { grid-template-columns:1fr;grid-gap:20px; }
   .floorplans section .grid, .detail { margin-left:10px;margin-right:10px; }
@@ -234,47 +316,70 @@ footer span:nth-child(5n) { transform:rotate(-60deg) scaleY(1.4);position:absolu
   .tweets > div { grid-template-columns:1fr;grid-gap:20px 10px; }
   .tweets > div div { font-size:1rem; }
   .tweets > div div:nth-child(odd) { display:none; }
+  .date-picker { padding:10px 0; }
+  .date-picker li { margin:0 2px 4px 0; }
+  .date-picker li a { width:12px; }
+  .tweets { margin-bottom:0; }
+  .tweet-timeline h3 { margin-top:0;padding-top:80px; }
+  .tweets div { background-size:40px 40px!important;background-position:10px 12px!important;padding:10px 20px 10px 60px; }
+  .tweets > div span { margin-top:2px; }
+  .tweets > div h4 { margin-bottom:0; }
 }
 @media only screen and (min-width:576px) and (max-width:768px) {
-  body { font-size:14px; }
+  html { font-size:14px; }
   h1 { font-size:2.2rem;line-height:1; }
   h2 { font-size:1.4rem; }
   h3 { font-size:1.2rem; }
   h4 { font-size:1.1rem; }
   .copyright { font-size:.6rem; }
-  section { background:#000;margin:40px 20px;padding:30px; }
+  body > div > section { background:#000;margin:40px 20px;padding:30px;width:calc(100vw - 100px); }
   body:not(.floorplans) .grid { grid-template-columns:1fr 1fr;grid-gap:20px; }
   .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:20px; }
   .board { columns:3; }
+  .date-picker { padding:10px 0;margin-bottom:-40px }
+  .date-picker li { margin:0 2px 4px 0; }
+  .date-picker li a { width:12px; }
+  .tweets { margin-bottom:0; }
+  .tweet-timeline h3 { margin-top:0;padding-top:60px; }
+  .tweets div { background-size:40px 40px!important;background-position:10px 12px!important;padding:10px 20px 10px 60px; }
+  .tweets > div span { margin-top:2px; }
+  .tweets > div h4 { margin-bottom:0; }
 }
 @media only screen and (min-width:769px) and (max-width:1024px) {
-  section { background:#000;margin:40px 20px;padding:20px 30px 30px; }
+  body > div > section { background:#000;margin:40px 20px;padding:20px 30px 30px;width:calc(100vw - 100px); }
   body:not(.floorplans) .grid { grid-template-columns:1fr 1fr 1fr 1fr;grid-gap:20px; }
   .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:40px; }
   .floorplans section .grid, .detail { margin-left:40px;margin-right:40px; }
   .board { columns:4; }
 }
 @media only screen and (min-width:1025px) and (max-width:1599px) {
-  section { background:#000;margin:40px 80px;padding:20px 40px 30px; }
+  body > div > section { background:#000;margin:40px 80px;padding:20px 40px 30px; }
   body:not(.floorplans) .grid { grid-template-columns:1fr 1fr 1fr 1fr;grid-gap:20px; }
   .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:40px; }
   .floorplans section .grid, .detail { margin-left:80px;margin-right:80px; }
   .board { columns:5; }
 }
 @media only screen and (min-width:1600px) and (max-width:1749px) {
-  section { background:#000;margin:40px 120px;padding:20px 60px 30px; }
+  body > div > section { background:#000;margin:40px 120px;padding:20px 60px 30px; }
   body:not(.floorplans) .grid { grid-template-columns:1fr 1fr 1fr 1fr;grid-gap:20px; }
   .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:40px; }
   .floorplans section .grid, .detail { margin-left:120px;margin-right:120px; }
   .board { columns:5; }
 }
 @media only screen and (min-width:1750px) {
-  section { background:#000;margin:40px 200px;padding:40px 60px 60px; }
+  body > div > section { background:#000;margin:40px 200px;padding:40px 60px 60px;background-position:left 15px; }
   body:not(.floorplans) .grid { grid-template-columns:1fr 1fr 1fr 1fr;grid-gap:20px; }
   .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:40px; }
   .floorplans section .grid, .detail { margin-left:100px;margin-right:100px; }
   .board { columns:6; }
 
 }
-@media only screen and (max-width:1199px) { }
+@media only screen and (max-width:374px) {
+  .date-picker { display:none; }
+  .tweets h3 { padding-top:40px; }
+  .sub li { margin:0 10px; }
+}
+@media only screen and (max-width:1260px) {
+  .date-picker { grid-template-columns:1fr;grid-gap:10px; }
+}
 @media only screen and (min-width:1200px) { }
