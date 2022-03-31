@@ -102,6 +102,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .fleccas { background:#ddd url(../capitol/tweets/sm/fleccas.png); }
 .tweets .flynn { background:#ddd url(../capitol/tweets/sm/flynn.png); }
 .tweets .midge { background:#ddd url(../capitol/tweets/sm/midge.png); }
+.tweets .forte { background:#ddd url(../capitol/tweets/sm/forte.png); }
 .tweets .geist { background:#ddd url(../capitol/tweets/sm/geist.png); }
 .tweets .gibson { background:#ddd url(../capitol/tweets/sm/gibson.png); }
 .tweets .dgibson { background:#ddd url(../capitol/tweets/sm/dgibson.png); }
