@@ -130,6 +130,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .megan { background:#ddd url(../capitol/tweets/sm/megan.png); }
 .tweets .meadows { background:#ddd url(../capitol/tweets/sm/meadows.png); }
 .tweets .marika { background:#ddd url(../capitol/tweets/sm/marika.png); }
+.tweets .martin { background:#ddd url(../capitol/tweets/sm/martin.png); }
 .tweets .papadopoulos { background:#ddd url(../capitol/tweets/sm/papadopoulos.png); }
 .tweets .ngo { background:#ddd url(../capitol/tweets/sm/ngo.png); }
 .tweets .pearson { background:#ddd url(../capitol/tweets/sm/pearson.png); }
