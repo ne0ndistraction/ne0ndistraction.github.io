@@ -90,6 +90,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .beanz { background:#ddd url(../capitol/tweets/sm/beanz.png); }
 .tweets .benjamin { background:#ddd url(../capitol/tweets/sm/benjamin.png); }
 .tweets .boebert { background:#ddd url(../capitol/tweets/sm/boebert.png); }
+.tweets .bontempo { background:#ddd url(../capitol/tweets/sm/bontempo.png); }
 .tweets .byrne { background:#ddd url(../capitol/tweets/sm/byrne.png); }
 .tweets .chambers { background:#ddd url(../capitol/tweets/sm/chambers.png); }
 .tweets .conwell { background:#ddd url(../capitol/tweets/sm/conwell.png); }
@@ -112,6 +113,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .greene { background:#ddd url(../capitol/tweets/sm/greene.png); }
 .tweets .gutierrez { background:#ddd url(../capitol/tweets/sm/gutierrez.png); }
 .tweets .harrisjr { background:#ddd url(../capitol/tweets/sm/harrisjr.png); }
+.tweets .hampton { background:#ddd url(../capitol/tweets/sm/hampton.png); }
 .tweets .hice { background:#ddd url(../capitol/tweets/sm/hice.png); }
 .tweets .vernon { background:#ddd url(../capitol/tweets/sm/vernon.png); }
 .tweets .kakhu { background:#ddd url(../capitol/tweets/sm/kakhu.png); }
@@ -123,6 +125,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .lindell { background:#ddd url(../capitol/tweets/sm/lindell.png); }
 .tweets .locke { background:#ddd url(../capitol/tweets/sm/locke.png); }
 .tweets .loh { background:#ddd url(../capitol/tweets/sm/loh.png); }
+.tweets .loudon { background:#ddd url(../capitol/tweets/sm/loudon.png); }
 .tweets .lutchman { background:#ddd url(../capitol/tweets/sm/lutchman.png); }
 .tweets .megan { background:#ddd url(../capitol/tweets/sm/megan.png); }
 .tweets .meadows { background:#ddd url(../capitol/tweets/sm/meadows.png); }
@@ -131,6 +134,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .ngo { background:#ddd url(../capitol/tweets/sm/ngo.png); }
 .tweets .pearson { background:#ddd url(../capitol/tweets/sm/pearson.png); }
 .tweets .posobiec { background:#ddd url(../capitol/tweets/sm/posobiec.png); }
+.tweets .presler { background:#ddd url(../capitol/tweets/sm/presler.png); }
 .tweets .rae { background:#ddd url(../capitol/tweets/sm/rae.png); }
 .tweets .rebel { background:#ddd url(../capitol/tweets/sm/rebel.png); }
 .tweets .robinson { background:#ddd url(../capitol/tweets/sm/robinson.png); }
@@ -141,6 +145,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .trump { background:#ddd url(../capitol/tweets/sm/trump.png); }
 .tweets .villa { background:#ddd url(../capitol/tweets/sm/villa.png); }
 .tweets .walker { background:#ddd url(../capitol/tweets/sm/walker.png); }
+.tweets .wagner { background:#ddd url(../capitol/tweets/sm/wagner.png); }
 .tweets .williams { background:#ddd url(../capitol/tweets/sm/williams.png); }
 .tweets .lft { background:#ddd url(../capitol/tweets/sm/lft.png); }
 .tweets .stopthestealus { background:#ddd url(../capitol/tweets/sm/stopthestealus.png); }
