@@ -91,6 +91,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .benjamin { background:#ddd url(../capitol/tweets/sm/benjamin.png); }
 .tweets .boebert { background:#ddd url(../capitol/tweets/sm/boebert.png); }
 .tweets .bontempo { background:#ddd url(../capitol/tweets/sm/bontempo.png); }
+.tweets .brooks { background:#ddd url(../capitol/tweets/sm/brooks.png); }
 .tweets .byrne { background:#ddd url(../capitol/tweets/sm/byrne.png); }
 .tweets .chambers { background:#ddd url(../capitol/tweets/sm/chambers.png); }
 .tweets .conwell { background:#ddd url(../capitol/tweets/sm/conwell.png); }
@@ -104,6 +105,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .flynn { background:#ddd url(../capitol/tweets/sm/flynn.png); }
 .tweets .midge { background:#ddd url(../capitol/tweets/sm/midge.png); }
 .tweets .forte { background:#ddd url(../capitol/tweets/sm/forte.png); }
+.tweets .fournier { background:#ddd url(../capitol/tweets/sm/fournier.png); }
 .tweets .geist { background:#ddd url(../capitol/tweets/sm/geist.png); }
 .tweets .gibson { background:#ddd url(../capitol/tweets/sm/gibson.png); }
 .tweets .dgibson { background:#ddd url(../capitol/tweets/sm/dgibson.png); }
