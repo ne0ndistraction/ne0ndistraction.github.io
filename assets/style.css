@@ -89,6 +89,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .ali { background:#ddd url(../capitol/tweets/sm/ali.png); }
 .tweets .beanz { background:#ddd url(../capitol/tweets/sm/beanz.png); }
 .tweets .benjamin { background:#ddd url(../capitol/tweets/sm/benjamin.png); }
+.tweets .biggs { background:#ddd url(../capitol/tweets/sm/biggs.png); }
 .tweets .boebert { background:#ddd url(../capitol/tweets/sm/boebert.png); }
 .tweets .bontempo { background:#ddd url(../capitol/tweets/sm/bontempo.png); }
 .tweets .brooks { background:#ddd url(../capitol/tweets/sm/brooks.png); }
@@ -163,6 +164,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
   background-size:60px 60px!important;
   background-position:15px 15px!important;
 }
+.tweets div:not(:last-child) { border-bottom:3px dotted #d2d2d2; }
 .tweets > div h4 { color:#000;font-size:.9rem;margin-bottom:4px; }
 .tweets > div span .deleted { color:#ff2c59;font-weight:600; }
 .tweets > div > span { display:block;margin-top:6px;color:#777;font-size:.7rem;font-weight:500; }
