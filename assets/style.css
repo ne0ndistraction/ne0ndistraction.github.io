@@ -103,6 +103,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .mcrump { background:#ddd url(../capitol/tweets/sm/mcrump.png); }
 .tweets .hamilton { background:#ddd url(../capitol/tweets/sm/hamilton.png); }
 .tweets .finchem { background:#ddd url(../capitol/tweets/sm/finchem.png); }
+.tweets .fairbanks { background:#ddd url(../capitol/tweets/sm/fairbanks.png); }
 .tweets .fleccas { background:#ddd url(../capitol/tweets/sm/fleccas.png); }
 .tweets .flynn { background:#ddd url(../capitol/tweets/sm/flynn.png); }
 .tweets .midge { background:#ddd url(../capitol/tweets/sm/midge.png); }
@@ -152,6 +153,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .robinson { background:#ddd url(../capitol/tweets/sm/robinson.png); }
 .tweets .rondeau { background:#ddd url(../capitol/tweets/sm/rondeau.png); }
 .tweets .sessions { background:#ddd url(../capitol/tweets/sm/sessions.png); }
+.tweets .stclair { background:#ddd url(../capitol/tweets/sm/stclair.png); }
 .tweets .stockton { background:#ddd url(../capitol/tweets/sm/stockton.png); }
 .tweets .straka { background:#ddd url(../capitol/tweets/sm/straka.png); }
 .tweets .sullivan { background:#ddd url(../capitol/tweets/sm/sullivan.png); }
