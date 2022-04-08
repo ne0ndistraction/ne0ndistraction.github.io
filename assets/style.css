@@ -113,6 +113,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .geist { background:#ddd url(../capitol/tweets/sm/geist.png); }
 .tweets .gibson { background:#ddd url(../capitol/tweets/sm/gibson.png); }
 .tweets .dgibson { background:#ddd url(../capitol/tweets/sm/dgibson.png); }
+.tweets .girdusky { background:#ddd url(../capitol/tweets/sm/girdusky.png); }
 .tweets .gooden { background:#ddd url(../capitol/tweets/sm/gooden.png); }
 .tweets .gosar { background:#ddd url(../capitol/tweets/sm/gosar.png); }
 .tweets .gracia { background:#ddd url(../capitol/tweets/sm/gracia.png); }
@@ -128,8 +129,10 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .vernon { background:#ddd url(../capitol/tweets/sm/vernon.png); }
 .tweets .kakhu { background:#ddd url(../capitol/tweets/sm/kakhu.png); }
 .tweets .kirk { background:#ddd url(../capitol/tweets/sm/kirk.png); }
+.tweets .kern { background:#ddd url(../capitol/tweets/sm/kern.png); }
 .tweets .akremer { background:#ddd url(../capitol/tweets/sm/akremer.png); }
 .tweets .kkremer { background:#ddd url(../capitol/tweets/sm/kkremer.png); }
+.tweets .lains { background:#ddd url(../capitol/tweets/sm/lains.png); }
 .tweets .lane { background:#ddd url(../capitol/tweets/sm/lane.png); }
 .tweets .lawrence { background:#ddd url(../capitol/tweets/sm/lawrence.png); }
 .tweets .leatherwood { background:#ddd url(../capitol/tweets/sm/leatherwood.png); }
@@ -158,6 +161,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .straka { background:#ddd url(../capitol/tweets/sm/straka.png); }
 .tweets .sullivan { background:#ddd url(../capitol/tweets/sm/sullivan.png); }
 .tweets .tatum { background:#ddd url(../capitol/tweets/sm/tatum.png); }
+.tweets .tennent { background:#ddd url(../capitol/tweets/sm/tennent.png); }
 .tweets .trump { background:#ddd url(../capitol/tweets/sm/trump.png); }
 .tweets .villa { background:#ddd url(../capitol/tweets/sm/villa.png); }
 .tweets .walker { background:#ddd url(../capitol/tweets/sm/walker.png); }
@@ -184,10 +188,38 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets > div a { font-weight:500;color:#000; }
 .tweets > div em { opacity:.4; }
 
-#hide { color:#057dff;font-weight:600;font-size:.9rem;width:100%;margin-top:-20px;cursor:pointer;transition:all .2s ease-in; }
-#hide:hover::before { color:#fff;transition:all .2s ease-in; }
-#hide::before { content:'hide filters';display:block;margin-bottom:20px; }
-#hide.show::before { content:'show filters'; }
+#hide { color:#057dff;font-weight:600;font-size:.9rem;width:100%;cursor:pointer;transition:all .2s ease-in;margin-bottom:20px; }
+#hide::before {
+  content:'';
+  position:relative;
+	border-style:solid;
+	border-width:2px 2px 0 0;
+  border-color:#fff;
+	display:inline-block;
+	left:0;
+	top:8px;
+	transform:rotate(-45deg);
+	vertical-align: top;
+	height:4px;
+	width:4px;
+}
+#hide.show::before {
+  content:'';
+  position:relative;
+	border-style:solid;
+	border-width:2px 2px 0 0;
+  border-color:#fff;
+	display:inline-block;
+	left:0;
+	top:6px;
+	transform:rotate(135deg);
+	vertical-align:top;
+	height:4px;
+	width:4px;
+}
+#hide:hover::after { color:#fff;transition:all .2s ease-in; }
+#hide::after { content:'hide account names';display:inline-block;padding-left:10px; }
+#hide.show::after { content:'show account names'; }
 
 .twitter { color:#057dff; }
 
@@ -280,7 +312,6 @@ footer div { position:relative;margin-right:4px;display:inline-block;margin-top:
 footer span:nth-child(5n) { transform:rotate(-60deg) scaleY(1.4);position:absolute;top:0;left:12px; }
 
 .top {
-  content:"\U+2303";
   position:fixed;
   z-index:2;
   bottom:10px;
@@ -316,9 +347,9 @@ footer span:nth-child(5n) { transform:rotate(-60deg) scaleY(1.4);position:absolu
 .top:hover { background:#fff;border-color:#000 }
 .top:hover::before { border-color:#000; }
 
-.note { font-size:.9rem;border-bottom:4px solid #222; }
-.note h5 { margin:0;padding:6px 0;color:#fff; }
-.note span.sm { display:block;font-size:.8rem;padding:0 0 14px 0;color:#aaa; }
+.note { font-size:.9rem;border-bottom:4px solid #222;border-top:4px solid #222;padding:14px 0; }
+.note h5 { margin:0;padding:0 0 6px 0;color:#fff; }
+.note span.sm { display:block;font-size:.8rem;color:#aaa; }
 .note pre { color:#ddd;display:inline;font-size:.875rem; }
 .note pre span { color:#ff633f; }
 
