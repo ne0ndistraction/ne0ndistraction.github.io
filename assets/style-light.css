@@ -197,7 +197,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 	height:4px;
 	width:4px;
 }
-#hide:hover::after { transition:all .2s ease-in; }
+#hide:hover::after { color:#055dff;transition:all .2s ease-in; }
 #hide::after { content:'hide account names';display:inline-block;padding-left:8px; }
 #hide.show::after { content:'show account names'; }
 
