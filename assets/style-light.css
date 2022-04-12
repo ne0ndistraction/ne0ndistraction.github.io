@@ -1,0 +1,421 @@
+html { scroll-behavior: smooth; }
+body {
+  margin:0;
+  width:100vw;
+  min-height:100vh;
+  box-sizing:border-box;
+  font:16px 'Nunito', sans-serif;
+  letter-spacing:0;
+  color:#454a50;
+  background:#f4f4f5;
+  background-size:100% auto;
+}
+
+.sub li.active::after, .dates li:not(.active):hover a  { background:#055dff; }
+a:hover, a:active, .grid div a:hover { color:#055dff; }
+.grid div a:hover img { border-color:#055dff; }
+.tabs li:not(.active):hover { background:#055dff;color:#fff; }
+
+h1 { font-size:2.4rem;font-weight:300;color:#101113;text-align:center;text-transform:uppercase;margin:0;  }
+h2 { font-size:1.8rem; }
+h3 { font-size:1.4rem; }
+h4 { font-size:1.2rem; }
+h5 { font-size:.9rem; }
+h2, h3, h4 { font-weight:700;color:#101113;margin:0 0 6px 0;letter-spacing:-0.5px; }
+h5 { font-weight:700; }
+
+h4.thread span { color:#1c1d1e; }
+h4.thread a:hover,
+h1.thread a:hover { color:#00ffe1; }
+
+a { font-weight:900;color:#101113;text-decoration:none;transition:all .2s ease-in; }
+header a { color:#fff;text-decoration:none; }
+
+.social { display:flex;flex-flow:row nowrap;justify-content:center;align-items:center;align-content:center;height:50px; }
+.social a { display:block;border:0; }
+.social a svg { height:24px;fill:#fff; }
+.social a:hover svg, .social a:active svg { fill:#057dff;transition:all .2s ease-in; }
+
+body > div > section { position:relative;background:#fff; }
+section .grid { display:grid;margin-top:20px; }
+section .grid div { position:relative;text-align:center;background:#f4f4f5;border-radius:3px; }
+section .grid a { display:block; }
+section .grid a img { display:block;max-width:calc(100% - 12px);margin:6px;transition:all .2s ease-in;border-radius:3px; }
+section .grid a span { display:block;padding:0 6px 6px; }
+section .grid div > span { display:block;font-size:.9rem;padding:0 6px 6px 6px;margin-top:-4px; }
+section .grid:not(:last-of-type) { margin-bottom:80px; }
+.timeline .grid > div { padding:14px; }
+
+.home > div > section { display:grid;grid-template-rows:1fr auto;grid-template-columns:100%; }
+.home > div > section > div:not(:last-of-type) { margin-bottom:80px; }
+.home > div > section h2 { margin:0; }
+
+.floorplans .detail img { width:calc(100% - 12px);border-radius:3px;border:6px solid #f4f4f5; }
+
+.timeline section { display:grid;grid-template-rows:auto auto 1fr auto; }
+
+.tweets .container { position:relative;padding-top:10px; }
+.date-picker { position:sticky;z-index:2;top:0;left:0;display:grid;grid-template-columns:auto auto;padding:15px 0;background:#fff; }
+.date-picker > div { display:grid;grid-template-columns:auto 1fr;grid-gap:10px; }
+.date-picker h4 { font-size:.9rem;margin:0;margin-top:3px; }
+.dates { list-style:none;margin:0;padding:0; }
+.dates li { display:inline-block;text-align:center;margin:0 2px; }
+.dates li a {display:block;color:#686e76;background:#e8e9ea;padding:4px 8px;font-size:.8rem;font-weight:600;width:16px;border-radius:3px; }
+.dates li a:hover { color:#fff; }
+.dates li.active a { color:#fff;background:#454a50; }
+.tweets section { border-bottom:4px solid #f4f4f5;padding:60px 0 0; }
+.tweets section > div { word-break:break-word;background-color:#f4f4f5;border-radius:3px;}
+
+.tweets section .ali { background-image:url(../capitol/tweets/sm/ali.png); }
+.tweets section .beanz { background-image:url(../capitol/tweets/sm/beanz.png); }
+.tweets section .benjamin { background-image:url(../capitol/tweets/sm/benjamin.png); }
+.tweets section .biggs { background-image:url(../capitol/tweets/sm/biggs.png); }
+.tweets section .boebert { background-image:url(../capitol/tweets/sm/boebert.png); }
+.tweets section .bontempo { background-image:url(../capitol/tweets/sm/bontempo.png); }
+.tweets section .brooks { background-image:url(../capitol/tweets/sm/brooks.png); }
+.tweets section .bruesewitz { background-image:url(../capitol/tweets/sm/bruesewitz.png); }
+.tweets section .byrne { background-image:url(../capitol/tweets/sm/byrne.png); }
+.tweets section .chambers { background-image:url(../capitol/tweets/sm/chambers.png); }
+.tweets section .conwell { background-image:url(../capitol/tweets/sm/conwell.png); }
+.tweets section .couch { background-image:url(../capitol/tweets/sm/couch.png); }
+.tweets section .coudrey { background-image:url(../capitol/tweets/sm/coudrey.png); }
+.tweets section .ccrump { background-image:url(../capitol/tweets/sm/ccrump.png); }
+.tweets section .mcrump { background-image:url(../capitol/tweets/sm/mcrump.png); }
+.tweets section .hamilton { background-image:url(../capitol/tweets/sm/hamilton.png); }
+.tweets section .finchem { background-image:url(../capitol/tweets/sm/finchem.png); }
+.tweets section .fairbanks { background-image:url(../capitol/tweets/sm/fairbanks.png); }
+.tweets section .fleccas { background-image:url(../capitol/tweets/sm/fleccas.png); }
+.tweets section .flynn { background-image:url(../capitol/tweets/sm/flynn.png); }
+.tweets section .midge { background-image:url(../capitol/tweets/sm/midge.png); }
+.tweets section .forte { background-image:url(../capitol/tweets/sm/forte.png); }
+.tweets section .fournier { background-image:url(../capitol/tweets/sm/fournier.png); }
+.tweets section .fuentes { background-image:url(../capitol/tweets/sm/fuentes.png); }
+.tweets section .geist { background-image:url(../capitol/tweets/sm/geist.png); }
+.tweets section .gibson { background-image:url(../capitol/tweets/sm/gibson.png); }
+.tweets section .dgibson { background-image:url(../capitol/tweets/sm/dgibson.png); }
+.tweets section .girdusky { background-image:url(../capitol/tweets/sm/girdusky.png); }
+.tweets section .gooden { background-image:url(../capitol/tweets/sm/gooden.png); }
+.tweets section .gosar { background-image:url(../capitol/tweets/sm/gosar.png); }
+.tweets section .gracia { background-image:url(../capitol/tweets/sm/gracia.png); }
+.tweets section .gray { background-image:url(../capitol/tweets/sm/gray.png); }
+.tweets section .greene { background-image:url(../capitol/tweets/sm/greene.png); }
+.tweets section .gutierrez { background-image:url(../capitol/tweets/sm/gutierrez.png); }
+.tweets section .harrisjr { background-image:url(../capitol/tweets/sm/harrisjr.png); }
+.tweets section .hampton { background-image:url(../capitol/tweets/sm/hampton.png); }
+.tweets section .hice { background-image:url(../capitol/tweets/sm/hice.png); }
+.tweets section .holland { background-image:url(../capitol/tweets/sm/holland.png); }
+.tweets section .abby { background-image:url(../capitol/tweets/sm/abby.png); }
+.tweets section .johnson { background-image:url(../capitol/tweets/sm/johnson.png); }
+.tweets section .vernon { background-image:url(../capitol/tweets/sm/vernon.png); }
+.tweets section .kakhu { background-image:url(../capitol/tweets/sm/kakhu.png); }
+.tweets section .kirk { background-image:url(../capitol/tweets/sm/kirk.png); }
+.tweets section .kern { background-image:url(../capitol/tweets/sm/kern.png); }
+.tweets section .akremer { background-image:url(../capitol/tweets/sm/akremer.png); }
+.tweets section .kkremer { background-image:url(../capitol/tweets/sm/kkremer.png); }
+.tweets section .lains { background-image:url(../capitol/tweets/sm/lains.png); }
+.tweets section .lane { background-image:url(../capitol/tweets/sm/lane.png); }
+.tweets section .lawrence { background-image:url(../capitol/tweets/sm/lawrence.png); }
+.tweets section .leatherwood { background-image:url(../capitol/tweets/sm/leatherwood.png); }
+.tweets section .lindell { background-image:url(../capitol/tweets/sm/lindell.png); }
+.tweets section .locke { background-image:url(../capitol/tweets/sm/locke.png); }
+.tweets section .loh { background-image:url(../capitol/tweets/sm/loh.png); }
+.tweets section .loudon { background-image:url(../capitol/tweets/sm/loudon.png); }
+.tweets section .lutchman { background-image:url(../capitol/tweets/sm/lutchman.png); }
+.tweets section .megan { background-image:url(../capitol/tweets/sm/megan.png); }
+.tweets section .malkin { background-image:url(../capitol/tweets/sm/malkin.png); }
+.tweets section .meadows { background-image:url(../capitol/tweets/sm/meadows.png); }
+.tweets section .marika { background-image:url(../capitol/tweets/sm/marika.png); }
+.tweets section .martin { background-image:url(../capitol/tweets/sm/martin.png); }
+.tweets section .papadopoulos { background-image:url(../capitol/tweets/sm/papadopoulos.png); }
+.tweets section .ngo { background-image:url(../capitol/tweets/sm/ngo.png); }
+.tweets section .pearson { background-image:url(../capitol/tweets/sm/pearson.png); }
+.tweets section .posobiec { background-image:url(../capitol/tweets/sm/posobiec.png); }
+.tweets section .presler { background-image:url(../capitol/tweets/sm/presler.png); }
+.tweets section .rae { background-image:url(../capitol/tweets/sm/rae.png); }
+.tweets section .rebel { background-image:url(../capitol/tweets/sm/rebel.png); }
+.tweets section .robinson { background-image:url(../capitol/tweets/sm/robinson.png); }
+.tweets section .rondeau { background-image:url(../capitol/tweets/sm/rondeau.png); }
+.tweets section .sessions { background-image:url(../capitol/tweets/sm/sessions.png); }
+.tweets section .stclair { background-image:url(../capitol/tweets/sm/stclair.png); }
+.tweets section .stockton { background-image:url(../capitol/tweets/sm/stockton.png); }
+.tweets section .straka { background-image:url(../capitol/tweets/sm/straka.png); }
+.tweets section .sullivan { background-image:url(../capitol/tweets/sm/sullivan.png); }
+.tweets section .tatum { background-image:url(../capitol/tweets/sm/tatum.png); }
+.tweets section .tennent { background-image:url(../capitol/tweets/sm/tennent.png); }
+.tweets section .trump { background-image:url(../capitol/tweets/sm/trump.png); }
+.tweets section .villa { background-image:url(../capitol/tweets/sm/villa.png); }
+.tweets section .walker { background-image:url(../capitol/tweets/sm/walker.png); }
+.tweets section .wagner { background-image:url(../capitol/tweets/sm/wagner.png); }
+.tweets section .williams { background-image:url(../capitol/tweets/sm/williams.png); }
+.tweets section .lft { background-image:url(../capitol/tweets/sm/lft.png); }
+.tweets section .stopthestealus { background-image:url(../capitol/tweets/sm/stopthestealus.png); }
+
+.tweets section div {
+  font-size:1rem;
+  font-weight:300;
+  line-height:1.3;
+  color:#101113;
+  padding:15px 30px 15px 90px;
+  background-repeat:no-repeat!important;
+  background-size:66px 66px!important;
+  background-position:12px 12px!important;
+}
+.tweets section div:not(:last-child) { border-bottom:3px dotted #e8e9ea; }
+.tweets section > div h4 { color:#101113;font-size:.9rem;margin-bottom:3px; }
+.tweets section > div span .deleted { color:#ff008c;font-weight:600; }
+.tweets section > div > span { display:block;margin-top:5px;color:#686e76;font-size:.7rem;font-weight:500; }
+.tweets section > div img { width:100%; }
+.tweets section > div a { font-weight:600;color:#101113; }
+.tweets section > div em { opacity:.6;font-weight:400;font-size:.8rem; }
+
+#hide { color:#101113;font-weight:900;font-size:.9rem;width:100%;cursor:pointer;transition:all .2s ease-in;margin-bottom:20px; }
+#hide::before {
+  content:'';
+  position:relative;
+	border-style:solid;
+	border-width:2px 2px 0 0;
+  border-color:#101113;
+	display:inline-block;
+	left:0;
+	top:8px;
+	transform:rotate(-45deg);
+	vertical-align: top;
+	height:4px;
+	width:4px;
+}
+#hide.show::before {
+  content:'';
+  position:relative;
+	border-style:solid;
+	border-width:2px 2px 0 0;
+  border-color:#101113;
+	display:inline-block;
+	left:0;
+	top:6px;
+	transform:rotate(135deg);
+	vertical-align:top;
+	height:4px;
+	width:4px;
+}
+#hide:hover::after { transition:all .2s ease-in; }
+#hide::after { content:'hide account names';display:inline-block;padding-left:8px; }
+#hide.show::after { content:'show account names'; }
+
+.twitter { color:#057dff; }
+
+body > div { display:grid;grid-template-rows:50px calc(100% - 100px) 50px;height:100%;min-height:100vh; }
+
+header { background:#101113;width:100vw;text-align:center; }
+header ul {
+  list-style-type:none;
+  margin:0 auto;
+  padding:0;
+  letter-spacing:1.4;
+}
+header ul li:first-of-type { font-size:1.8rem;font-weight:300; }
+header ul li:not(:first-of-type) { color:#2afffe;text-align:right;padding-left:1rem; }
+
+.back { position:absolute;top:15px;left:0;display:block; }
+.back svg { fill:#b6babd ;height:20px;transition:all .2s ease-in; }
+.back:hover svg { fill:#055dff; }
+
+.sub { list-style:none;margin:0 0 20px;padding:0;text-align:center; }
+.sub li { display:inline-block;margin:10px;padding:0 0 3px 0;text-transform:uppercase;position:relative;font-size:1rem;font-weight:900; }
+.sub li a { font-size:1rem;font-weight:900; }
+.sub li.active { color:#101113; }
+.sub li.active::after { content:'';position:absolute;bottom:0;z-index:2;display:block;height:3px;width:100%;border-radius:10px; }
+.sub li a:not(:hover) { color:#101113; }
+
+.board { column-gap:10px;margin:20px 0;line-height:0; }
+.board > div { vertical-align:top;margin-bottom:10px;position:relative; }
+.board > div img { width:100%; }
+.hide { display:none; }
+.board > div a { border:4px solid #fff;display:block;position:relative; }
+.board > div a:hover { border-color:#00ffe1; }
+.board > div a::before {
+  visibility:hidden;
+  content:'view fullsize';
+  color:transparent;
+  font-weight:700;
+  font-size:1rem;
+  text-transform:uppercase;
+  background:transparent;
+  padding:16px 14px 10px 4px;
+  width:calc(100% - 18px);
+  position:absolute;
+  bottom:0;
+  left:0;
+  transition:all .2s ease-in; }
+.board > div a:hover::before {
+  visibility:visible;
+  content:'view fullsize';
+  color:#fff;
+  font-weight:700;
+  font-size:1rem;
+  text-transform:uppercase;
+  background:#00ffe1;
+  padding:16px 14px 10px 4px;
+  width:calc(100% - 18px);
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+.tabs { list-style:none;margin:0 0 20px;padding:0;text-align:left; }
+.tabs li { display:inline-block;margin:0 4px 8px 0;background:#e8e9ea;color:#686e76;padding:4px 8px;font-size:.8rem;font-weight:600;letter-spacing:.4px;cursor:pointer;transition:all .2s ease-in;border-radius:3px; }
+.tabs li.deleted { color:#ff008c; }
+.tabs li.active { background:#454a50;color:#fff;cursor:default; }
+
+.container { margin:0 auto;position:relative; }
+.container h1 + h4 { text-align:center;margin-top:-30px; }
+.container > h3 { padding:40px;text-align:center;background:#fff; }
+.container > span { display:block;font-size:1.2rem;text-align:center;margin-bottom:40px; }
+
+.jump { height:60px; }
+
+.copyright { font-size:.8rem;text-align:center;padding-top:60px; }
+.copyright h4 { background:#fff;color:#101113;text-align:center; }
+
+.commons { text-align:center;margin:40px auto 0;width:100%; }
+.commons img { height:40px;margin:0 0 10px 0; }
+
+footer { display:flex;align-items:center;justify-content:center;background:#101113; }
+footer span {
+  display:inline-block;
+  margin-right:4px;
+  background:#fff;
+  border-radius:3px;
+  width:2px;
+  height:20px;
+}
+footer div { position:relative;margin-right:4px;display:inline-block;margin-top:4px; }
+footer span:nth-child(5n) { transform:rotate(-60deg) scaleY(1.4) scaleX(1.1);position:absolute;top:0;left:9px; }
+
+.top {
+  position:fixed;
+  z-index:2;
+  bottom:8px;
+  right:8px;
+  background:#101113;
+  border-radius:50%;
+  width:28px;
+  height:20px;
+  padding-top:8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-weight:300;
+  font-size:1.6rem;
+  cursor:pointer;
+  border:3px solid #fff;
+}
+.top::before {
+  content:'';
+  position:relative;
+	border-style:solid;
+	border-width:3px 3px 0 0;
+  border-color:#fff;
+	display:inline-block;
+	left:0;
+	top:-2px;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	height:6px;
+	width:6px;
+}
+.top:hover { background:#fff;border-color:#101113 }
+.top:hover::before { border-color:#101113; }
+
+.note { position:relative;font-size:.9rem;padding:14px 0; }
+.note::before { content:'';position:absolute;top:0;display:block;border-radius:3px;background:#f4f4f5;height:3px;width:100%; }
+.note::after { content:'';position:absolute;bottom:0;display:block;border-radius:3px;background:#f4f4f5;height:3px;width:100%; }
+.note h5 { margin:0;padding:0 0 6px 0;color:#272a2d; }
+.note span.sm { display:block;font-size:.85rem; }
+.note pre { color:#454a50;display:inline;font-size:.85rem; }
+.note pre span { color:#ff008c; }
+
+/* media queries */
+@media only screen and (max-width:575px) {
+  html { font-size:14px; }
+  h1 { font-size:2.2rem;line-height:1; }
+  h2 { font-size:1.4rem; }
+  h3 { font-size:1.2rem; }
+  h4 { font-size:1.1rem; }
+  .copyright { font-size:.6rem; }
+  .sub li { font-size:1rem; }
+  body > div > section { margin:40px 20px;padding:20px;width:calc(100vw - 80px); }
+  body:not(.floorplans) .grid { grid-template-columns:1fr 1fr;grid-gap:20px; }
+  .floorplans section .grid { grid-template-columns:1fr;grid-gap:20px; }
+  .floorplans section .grid, .detail { margin-left:10px;margin-right:10px; }
+  .board { columns:2; }
+  .tweets section > div { grid-template-columns:1fr;grid-gap:20px 10px; }
+  .tweets section > div div { font-size:1rem; }
+  .tweets section > div div:nth-child(odd) { display:none; }
+  .date-picker { padding:10px 0; }
+  .date-picker li { margin:0 2px 4px 0; }
+  .date-picker li a { width:12px; }
+  .tweets section { margin-bottom:0; }
+  .tweet-timeline h3 { margin-top:0;padding-top:80px; }
+  .tweets section div { background-size:40px 40px!important;background-position:10px 12px!important;padding:10px 20px 10px 60px; }
+  .tweets section > div span { margin-top:2px; }
+  .tweets section > div h4 { margin-bottom:0; }
+}
+@media only screen and (min-width:576px) and (max-width:768px) {
+  html { font-size:14px; }
+  h1 { font-size:2.2rem;line-height:1; }
+  h2 { font-size:1.4rem; }
+  h3 { font-size:1.2rem; }
+  h4 { font-size:1.1rem; }
+  .copyright { font-size:.6rem; }
+  body > div > section { margin:40px 20px;padding:30px;width:calc(100vw - 100px); }
+  body:not(.floorplans) .grid { grid-template-columns:1fr 1fr;grid-gap:20px; }
+  .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:20px; }
+  .board { columns:3; }
+  .date-picker { padding:10px 0;margin-bottom:-40px }
+  .date-picker li { margin:0 2px 4px 0; }
+  .date-picker li a { width:12px; }
+  .tweets section { margin-bottom:0; }
+  .tweet-timeline h3 { margin-top:0;padding-top:60px; }
+  .tweets section div { background-size:40px 40px!important;background-position:10px 12px!important;padding:10px 20px 10px 60px; }
+  .tweets section > div span { margin-top:2px; }
+  .tweets section > div h4 { margin-bottom:0; }
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  body > div > section { margin:40px 20px;padding:30px;width:calc(100vw - 100px); }
+  body:not(.floorplans) .grid { grid-template-columns:1fr 1fr 1fr 1fr;grid-gap:20px; }
+  .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:40px; }
+  .floorplans section .grid, .detail { margin-left:40px;margin-right:40px; }
+  .board { columns:4; }
+}
+@media only screen and (min-width:1025px) and (max-width:1599px) {
+  body > div > section { margin:40px 80px;padding:30px; }
+  body:not(.floorplans) .grid { grid-template-columns:1fr 1fr 1fr 1fr;grid-gap:20px; }
+  .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:40px; }
+  .floorplans section .grid, .detail { margin-left:80px;margin-right:80px; }
+  .board { columns:5; }
+}
+@media only screen and (min-width:1600px) and (max-width:1749px) {
+  body > div > section { margin:40px 120px;padding:40px; }
+  body:not(.floorplans) .grid { grid-template-columns:1fr 1fr 1fr 1fr;grid-gap:20px; }
+  .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:40px; }
+  .floorplans section .grid, .detail { margin-left:120px;margin-right:120px; }
+  .board { columns:5; }
+}
+@media only screen and (min-width:1750px) {
+  body > div > section { margin:40px 200px;padding:40px;background-position:left 15px; }
+  body:not(.floorplans) .grid { grid-template-columns:1fr 1fr 1fr 1fr;grid-gap:20px; }
+  .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:40px; }
+  .floorplans section .grid, .detail { margin-left:100px;margin-right:100px; }
+  .board { columns:6; }
+
+}
+@media only screen and (max-width:374px) {
+  .date-picker { display:none; }
+  .tweets section h3 { padding-top:40px; }
+  .sub li { margin:0 10px; }
+}
+@media only screen and (max-width:1260px) {
+  .date-picker { grid-template-columns:1fr;grid-gap:10px; }
+}
+@media only screen and (min-width:1200px) { }
