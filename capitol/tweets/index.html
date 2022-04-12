@@ -13272,7 +13272,7 @@
           $('.all').removeClass('active');
           $('.category').removeClass('active');
           $(this).addClass('active');
-          $('.tweets > div').fadeOut(200);
+          $('.tweets .container section > div').fadeOut(200);
           $('.tweets div.'+$(this).attr('target')).fadeIn(200);
         });
         $('#hide').click(function(){
