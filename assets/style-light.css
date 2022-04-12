@@ -63,94 +63,94 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .dates li a {display:block;color:#686e76;background:#e8e9ea;padding:4px 8px;font-size:.8rem;font-weight:600;width:16px;border-radius:3px; }
 .dates li a:hover { color:#fff; }
 .dates li.active a { color:#fff;background:#454a50; }
-.tweets section { border-bottom:4px solid #f4f4f5;padding:60px 0 0; }
-.tweets section > div { word-break:break-word;background-color:#f4f4f5;border-radius:3px;}
+.tweets .container section { border-bottom:4px solid #f4f4f5;padding:60px 0 0; }
+.tweets .container section > div { word-break:break-word;background-color:#f4f4f5;border-radius:3px;}
 
-.tweets section .ali { background-image:url(../capitol/tweets/sm/ali.png); }
-.tweets section .beanz { background-image:url(../capitol/tweets/sm/beanz.png); }
-.tweets section .benjamin { background-image:url(../capitol/tweets/sm/benjamin.png); }
-.tweets section .biggs { background-image:url(../capitol/tweets/sm/biggs.png); }
-.tweets section .boebert { background-image:url(../capitol/tweets/sm/boebert.png); }
-.tweets section .bontempo { background-image:url(../capitol/tweets/sm/bontempo.png); }
-.tweets section .brooks { background-image:url(../capitol/tweets/sm/brooks.png); }
-.tweets section .bruesewitz { background-image:url(../capitol/tweets/sm/bruesewitz.png); }
-.tweets section .byrne { background-image:url(../capitol/tweets/sm/byrne.png); }
-.tweets section .chambers { background-image:url(../capitol/tweets/sm/chambers.png); }
-.tweets section .conwell { background-image:url(../capitol/tweets/sm/conwell.png); }
-.tweets section .couch { background-image:url(../capitol/tweets/sm/couch.png); }
-.tweets section .coudrey { background-image:url(../capitol/tweets/sm/coudrey.png); }
-.tweets section .ccrump { background-image:url(../capitol/tweets/sm/ccrump.png); }
-.tweets section .mcrump { background-image:url(../capitol/tweets/sm/mcrump.png); }
-.tweets section .hamilton { background-image:url(../capitol/tweets/sm/hamilton.png); }
-.tweets section .finchem { background-image:url(../capitol/tweets/sm/finchem.png); }
-.tweets section .fairbanks { background-image:url(../capitol/tweets/sm/fairbanks.png); }
-.tweets section .fleccas { background-image:url(../capitol/tweets/sm/fleccas.png); }
-.tweets section .flynn { background-image:url(../capitol/tweets/sm/flynn.png); }
-.tweets section .midge { background-image:url(../capitol/tweets/sm/midge.png); }
-.tweets section .forte { background-image:url(../capitol/tweets/sm/forte.png); }
-.tweets section .fournier { background-image:url(../capitol/tweets/sm/fournier.png); }
-.tweets section .fuentes { background-image:url(../capitol/tweets/sm/fuentes.png); }
-.tweets section .geist { background-image:url(../capitol/tweets/sm/geist.png); }
-.tweets section .gibson { background-image:url(../capitol/tweets/sm/gibson.png); }
-.tweets section .dgibson { background-image:url(../capitol/tweets/sm/dgibson.png); }
-.tweets section .girdusky { background-image:url(../capitol/tweets/sm/girdusky.png); }
-.tweets section .gooden { background-image:url(../capitol/tweets/sm/gooden.png); }
-.tweets section .gosar { background-image:url(../capitol/tweets/sm/gosar.png); }
-.tweets section .gracia { background-image:url(../capitol/tweets/sm/gracia.png); }
-.tweets section .gray { background-image:url(../capitol/tweets/sm/gray.png); }
-.tweets section .greene { background-image:url(../capitol/tweets/sm/greene.png); }
-.tweets section .gutierrez { background-image:url(../capitol/tweets/sm/gutierrez.png); }
-.tweets section .harrisjr { background-image:url(../capitol/tweets/sm/harrisjr.png); }
-.tweets section .hampton { background-image:url(../capitol/tweets/sm/hampton.png); }
-.tweets section .hice { background-image:url(../capitol/tweets/sm/hice.png); }
-.tweets section .holland { background-image:url(../capitol/tweets/sm/holland.png); }
-.tweets section .abby { background-image:url(../capitol/tweets/sm/abby.png); }
-.tweets section .johnson { background-image:url(../capitol/tweets/sm/johnson.png); }
-.tweets section .vernon { background-image:url(../capitol/tweets/sm/vernon.png); }
-.tweets section .kakhu { background-image:url(../capitol/tweets/sm/kakhu.png); }
-.tweets section .kirk { background-image:url(../capitol/tweets/sm/kirk.png); }
-.tweets section .kern { background-image:url(../capitol/tweets/sm/kern.png); }
-.tweets section .akremer { background-image:url(../capitol/tweets/sm/akremer.png); }
-.tweets section .kkremer { background-image:url(../capitol/tweets/sm/kkremer.png); }
-.tweets section .lains { background-image:url(../capitol/tweets/sm/lains.png); }
-.tweets section .lane { background-image:url(../capitol/tweets/sm/lane.png); }
-.tweets section .lawrence { background-image:url(../capitol/tweets/sm/lawrence.png); }
-.tweets section .leatherwood { background-image:url(../capitol/tweets/sm/leatherwood.png); }
-.tweets section .lindell { background-image:url(../capitol/tweets/sm/lindell.png); }
-.tweets section .locke { background-image:url(../capitol/tweets/sm/locke.png); }
-.tweets section .loh { background-image:url(../capitol/tweets/sm/loh.png); }
-.tweets section .loudon { background-image:url(../capitol/tweets/sm/loudon.png); }
-.tweets section .lutchman { background-image:url(../capitol/tweets/sm/lutchman.png); }
-.tweets section .megan { background-image:url(../capitol/tweets/sm/megan.png); }
-.tweets section .malkin { background-image:url(../capitol/tweets/sm/malkin.png); }
-.tweets section .meadows { background-image:url(../capitol/tweets/sm/meadows.png); }
-.tweets section .marika { background-image:url(../capitol/tweets/sm/marika.png); }
-.tweets section .martin { background-image:url(../capitol/tweets/sm/martin.png); }
-.tweets section .papadopoulos { background-image:url(../capitol/tweets/sm/papadopoulos.png); }
-.tweets section .ngo { background-image:url(../capitol/tweets/sm/ngo.png); }
-.tweets section .pearson { background-image:url(../capitol/tweets/sm/pearson.png); }
-.tweets section .posobiec { background-image:url(../capitol/tweets/sm/posobiec.png); }
-.tweets section .presler { background-image:url(../capitol/tweets/sm/presler.png); }
-.tweets section .rae { background-image:url(../capitol/tweets/sm/rae.png); }
-.tweets section .rebel { background-image:url(../capitol/tweets/sm/rebel.png); }
-.tweets section .robinson { background-image:url(../capitol/tweets/sm/robinson.png); }
-.tweets section .rondeau { background-image:url(../capitol/tweets/sm/rondeau.png); }
-.tweets section .sessions { background-image:url(../capitol/tweets/sm/sessions.png); }
-.tweets section .stclair { background-image:url(../capitol/tweets/sm/stclair.png); }
-.tweets section .stockton { background-image:url(../capitol/tweets/sm/stockton.png); }
-.tweets section .straka { background-image:url(../capitol/tweets/sm/straka.png); }
-.tweets section .sullivan { background-image:url(../capitol/tweets/sm/sullivan.png); }
-.tweets section .tatum { background-image:url(../capitol/tweets/sm/tatum.png); }
-.tweets section .tennent { background-image:url(../capitol/tweets/sm/tennent.png); }
-.tweets section .trump { background-image:url(../capitol/tweets/sm/trump.png); }
-.tweets section .villa { background-image:url(../capitol/tweets/sm/villa.png); }
-.tweets section .walker { background-image:url(../capitol/tweets/sm/walker.png); }
-.tweets section .wagner { background-image:url(../capitol/tweets/sm/wagner.png); }
-.tweets section .williams { background-image:url(../capitol/tweets/sm/williams.png); }
-.tweets section .lft { background-image:url(../capitol/tweets/sm/lft.png); }
-.tweets section .stopthestealus { background-image:url(../capitol/tweets/sm/stopthestealus.png); }
+.tweets .container section .ali { background-image:url(../capitol/tweets/sm/ali.png); }
+.tweets .container section .beanz { background-image:url(../capitol/tweets/sm/beanz.png); }
+.tweets .container section .benjamin { background-image:url(../capitol/tweets/sm/benjamin.png); }
+.tweets .container section .biggs { background-image:url(../capitol/tweets/sm/biggs.png); }
+.tweets .container section .boebert { background-image:url(../capitol/tweets/sm/boebert.png); }
+.tweets .container section .bontempo { background-image:url(../capitol/tweets/sm/bontempo.png); }
+.tweets .container section .brooks { background-image:url(../capitol/tweets/sm/brooks.png); }
+.tweets .container section .bruesewitz { background-image:url(../capitol/tweets/sm/bruesewitz.png); }
+.tweets .container section .byrne { background-image:url(../capitol/tweets/sm/byrne.png); }
+.tweets .container section .chambers { background-image:url(../capitol/tweets/sm/chambers.png); }
+.tweets .container section .conwell { background-image:url(../capitol/tweets/sm/conwell.png); }
+.tweets .container section .couch { background-image:url(../capitol/tweets/sm/couch.png); }
+.tweets .container section .coudrey { background-image:url(../capitol/tweets/sm/coudrey.png); }
+.tweets .container section .ccrump { background-image:url(../capitol/tweets/sm/ccrump.png); }
+.tweets .container section .mcrump { background-image:url(../capitol/tweets/sm/mcrump.png); }
+.tweets .container section .hamilton { background-image:url(../capitol/tweets/sm/hamilton.png); }
+.tweets .container section .finchem { background-image:url(../capitol/tweets/sm/finchem.png); }
+.tweets .container section .fairbanks { background-image:url(../capitol/tweets/sm/fairbanks.png); }
+.tweets .container section .fleccas { background-image:url(../capitol/tweets/sm/fleccas.png); }
+.tweets .container section .flynn { background-image:url(../capitol/tweets/sm/flynn.png); }
+.tweets .container section .midge { background-image:url(../capitol/tweets/sm/midge.png); }
+.tweets .container section .forte { background-image:url(../capitol/tweets/sm/forte.png); }
+.tweets .container section .fournier { background-image:url(../capitol/tweets/sm/fournier.png); }
+.tweets .container section .fuentes { background-image:url(../capitol/tweets/sm/fuentes.png); }
+.tweets .container section .geist { background-image:url(../capitol/tweets/sm/geist.png); }
+.tweets .container section .gibson { background-image:url(../capitol/tweets/sm/gibson.png); }
+.tweets .container section .dgibson { background-image:url(../capitol/tweets/sm/dgibson.png); }
+.tweets .container section .girdusky { background-image:url(../capitol/tweets/sm/girdusky.png); }
+.tweets .container section .gooden { background-image:url(../capitol/tweets/sm/gooden.png); }
+.tweets .container section .gosar { background-image:url(../capitol/tweets/sm/gosar.png); }
+.tweets .container section .gracia { background-image:url(../capitol/tweets/sm/gracia.png); }
+.tweets .container section .gray { background-image:url(../capitol/tweets/sm/gray.png); }
+.tweets .container section .greene { background-image:url(../capitol/tweets/sm/greene.png); }
+.tweets .container section .gutierrez { background-image:url(../capitol/tweets/sm/gutierrez.png); }
+.tweets .container section .harrisjr { background-image:url(../capitol/tweets/sm/harrisjr.png); }
+.tweets .container section .hampton { background-image:url(../capitol/tweets/sm/hampton.png); }
+.tweets .container section .hice { background-image:url(../capitol/tweets/sm/hice.png); }
+.tweets .container section .holland { background-image:url(../capitol/tweets/sm/holland.png); }
+.tweets .container section .abby { background-image:url(../capitol/tweets/sm/abby.png); }
+.tweets .container section .johnson { background-image:url(../capitol/tweets/sm/johnson.png); }
+.tweets .container section .vernon { background-image:url(../capitol/tweets/sm/vernon.png); }
+.tweets .container section .kakhu { background-image:url(../capitol/tweets/sm/kakhu.png); }
+.tweets .container section .kirk { background-image:url(../capitol/tweets/sm/kirk.png); }
+.tweets .container section .kern { background-image:url(../capitol/tweets/sm/kern.png); }
+.tweets .container section .akremer { background-image:url(../capitol/tweets/sm/akremer.png); }
+.tweets .container section .kkremer { background-image:url(../capitol/tweets/sm/kkremer.png); }
+.tweets .container section .lains { background-image:url(../capitol/tweets/sm/lains.png); }
+.tweets .container section .lane { background-image:url(../capitol/tweets/sm/lane.png); }
+.tweets .container section .lawrence { background-image:url(../capitol/tweets/sm/lawrence.png); }
+.tweets .container section .leatherwood { background-image:url(../capitol/tweets/sm/leatherwood.png); }
+.tweets .container section .lindell { background-image:url(../capitol/tweets/sm/lindell.png); }
+.tweets .container section .locke { background-image:url(../capitol/tweets/sm/locke.png); }
+.tweets .container section .loh { background-image:url(../capitol/tweets/sm/loh.png); }
+.tweets .container section .loudon { background-image:url(../capitol/tweets/sm/loudon.png); }
+.tweets .container section .lutchman { background-image:url(../capitol/tweets/sm/lutchman.png); }
+.tweets .container section .megan { background-image:url(../capitol/tweets/sm/megan.png); }
+.tweets .container section .malkin { background-image:url(../capitol/tweets/sm/malkin.png); }
+.tweets .container section .meadows { background-image:url(../capitol/tweets/sm/meadows.png); }
+.tweets .container section .marika { background-image:url(../capitol/tweets/sm/marika.png); }
+.tweets .container section .martin { background-image:url(../capitol/tweets/sm/martin.png); }
+.tweets .container section .papadopoulos { background-image:url(../capitol/tweets/sm/papadopoulos.png); }
+.tweets .container section .ngo { background-image:url(../capitol/tweets/sm/ngo.png); }
+.tweets .container section .pearson { background-image:url(../capitol/tweets/sm/pearson.png); }
+.tweets .container section .posobiec { background-image:url(../capitol/tweets/sm/posobiec.png); }
+.tweets .container section .presler { background-image:url(../capitol/tweets/sm/presler.png); }
+.tweets .container section .rae { background-image:url(../capitol/tweets/sm/rae.png); }
+.tweets .container section .rebel { background-image:url(../capitol/tweets/sm/rebel.png); }
+.tweets .container section .robinson { background-image:url(../capitol/tweets/sm/robinson.png); }
+.tweets .container section .rondeau { background-image:url(../capitol/tweets/sm/rondeau.png); }
+.tweets .container section .sessions { background-image:url(../capitol/tweets/sm/sessions.png); }
+.tweets .container section .stclair { background-image:url(../capitol/tweets/sm/stclair.png); }
+.tweets .container section .stockton { background-image:url(../capitol/tweets/sm/stockton.png); }
+.tweets .container section .straka { background-image:url(../capitol/tweets/sm/straka.png); }
+.tweets .container section .sullivan { background-image:url(../capitol/tweets/sm/sullivan.png); }
+.tweets .container section .tatum { background-image:url(../capitol/tweets/sm/tatum.png); }
+.tweets .container section .tennent { background-image:url(../capitol/tweets/sm/tennent.png); }
+.tweets .container section .trump { background-image:url(../capitol/tweets/sm/trump.png); }
+.tweets .container section .villa { background-image:url(../capitol/tweets/sm/villa.png); }
+.tweets .container section .walker { background-image:url(../capitol/tweets/sm/walker.png); }
+.tweets .container section .wagner { background-image:url(../capitol/tweets/sm/wagner.png); }
+.tweets .container section .williams { background-image:url(../capitol/tweets/sm/williams.png); }
+.tweets .container section .lft { background-image:url(../capitol/tweets/sm/lft.png); }
+.tweets .container section .stopthestealus { background-image:url(../capitol/tweets/sm/stopthestealus.png); }
 
-.tweets section div {
+.tweets .container section div {
   font-size:1rem;
   font-weight:300;
   line-height:1.3;
@@ -160,13 +160,13 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
   background-size:66px 66px!important;
   background-position:12px 12px!important;
 }
-.tweets section div:not(:last-child) { border-bottom:3px dotted #e8e9ea; }
-.tweets section > div h4 { color:#101113;font-size:.9rem;margin-bottom:3px; }
-.tweets section > div span .deleted { color:#ff008c;font-weight:600; }
-.tweets section > div > span { display:block;margin-top:5px;color:#686e76;font-size:.7rem;font-weight:500; }
-.tweets section > div img { width:100%; }
-.tweets section > div a { font-weight:600;color:#101113; }
-.tweets section > div em { opacity:.6;font-weight:400;font-size:.8rem; }
+.tweets .container section div:not(:last-child) { border-bottom:3px dotted #e8e9ea; }
+.tweets .container section > div h4 { color:#101113;font-size:.9rem;margin-bottom:3px; }
+.tweets .container section > div span .deleted { color:#ff008c;font-weight:600; }
+.tweets .container section > div > span { display:block;margin-top:5px;color:#686e76;font-size:.7rem;font-weight:500; }
+.tweets .container section > div img { width:100%; }
+.tweets .container section > div a { font-weight:600;color:#101113; }
+.tweets .container section > div em { opacity:.6;font-weight:400;font-size:.8rem; }
 
 #hide { color:#101113;font-weight:900;font-size:.9rem;width:100%;cursor:pointer;transition:all .2s ease-in;margin-bottom:20px; }
 #hide::before {
@@ -349,17 +349,17 @@ footer span:nth-child(5n) { transform:rotate(-60deg) scaleY(1.4) scaleX(1.1);pos
   .floorplans section .grid { grid-template-columns:1fr;grid-gap:20px; }
   .floorplans section .grid, .detail { margin-left:10px;margin-right:10px; }
   .board { columns:2; }
-  .tweets section > div { grid-template-columns:1fr;grid-gap:20px 10px; }
-  .tweets section > div div { font-size:1rem; }
-  .tweets section > div div:nth-child(odd) { display:none; }
+  .tweets .container section > div { grid-template-columns:1fr;grid-gap:20px 10px; }
+  .tweets .container section > div div { font-size:1rem; }
+  .tweets .container section > div div:nth-child(odd) { display:none; }
   .date-picker { padding:10px 0; }
   .date-picker li { margin:0 2px 4px 0; }
   .date-picker li a { width:12px; }
-  .tweets section { margin-bottom:0; }
+  .tweets .container section { margin-bottom:0; }
   .tweet-timeline h3 { margin-top:0;padding-top:80px; }
-  .tweets section div { background-size:40px 40px!important;background-position:10px 12px!important;padding:10px 20px 10px 60px; }
-  .tweets section > div span { margin-top:2px; }
-  .tweets section > div h4 { margin-bottom:0; }
+  .tweets .container section div { background-size:40px 40px!important;background-position:10px 12px!important;padding:10px 20px 10px 60px; }
+  .tweets .container section > div span { margin-top:2px; }
+  .tweets .container section > div h4 { margin-bottom:0; }
 }
 @media only screen and (min-width:576px) and (max-width:768px) {
   html { font-size:14px; }
@@ -375,11 +375,11 @@ footer span:nth-child(5n) { transform:rotate(-60deg) scaleY(1.4) scaleX(1.1);pos
   .date-picker { padding:10px 0;margin-bottom:-40px }
   .date-picker li { margin:0 2px 4px 0; }
   .date-picker li a { width:12px; }
-  .tweets section { margin-bottom:0; }
+  .tweets .container section { margin-bottom:0; }
   .tweet-timeline h3 { margin-top:0;padding-top:60px; }
-  .tweets section div { background-size:40px 40px!important;background-position:10px 12px!important;padding:10px 20px 10px 60px; }
-  .tweets section > div span { margin-top:2px; }
-  .tweets section > div h4 { margin-bottom:0; }
+  .tweets .container section div { background-size:40px 40px!important;background-position:10px 12px!important;padding:10px 20px 10px 60px; }
+  .tweets .container section > div span { margin-top:2px; }
+  .tweets .container section > div h4 { margin-bottom:0; }
 }
 @media only screen and (min-width:769px) and (max-width:1024px) {
   body > div > section { margin:40px 20px;padding:30px;width:calc(100vw - 100px); }
@@ -412,7 +412,7 @@ footer span:nth-child(5n) { transform:rotate(-60deg) scaleY(1.4) scaleX(1.1);pos
 }
 @media only screen and (max-width:374px) {
   .date-picker { display:none; }
-  .tweets section h3 { padding-top:40px; }
+  .tweets .container section h3 { padding-top:40px; }
   .sub li { margin:0 10px; }
 }
 @media only screen and (max-width:1260px) {
