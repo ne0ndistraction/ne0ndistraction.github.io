@@ -12,7 +12,7 @@ body {
 }
 
 .sub li.active::after, .dates li:not(.active):hover a  { background:#055dff; }
-a:hover, a:active, .grid div a:hover { color:#055dff; }
+a:hover, a:active, .grid div:hover a { color:#055dff; }
 .grid div a:hover img { border-color:#055dff; }
 .tabs li:not(.active):hover { background:#055dff;color:#fff; }
 
@@ -39,6 +39,7 @@ header a { color:#fff;text-decoration:none; }
 body > div > section { position:relative;background:#fff; }
 section .grid { display:grid;margin-top:20px; }
 section .grid div { position:relative;text-align:center;background:#f4f4f5;border-radius:3px; }
+section .grid div:hover { background:#000;color:#fff;transition:all .2s ease-in; }
 section .grid a { display:block; }
 section .grid a img { display:block;max-width:calc(100% - 12px);margin:6px;transition:all .2s ease-in;border-radius:3px; }
 section .grid a span { display:block;padding:0 6px 6px; }
@@ -405,7 +406,7 @@ footer span:nth-child(5n) { transform:rotate(-60deg) scaleY(1.4) scaleX(1.1);pos
 }
 @media only screen and (min-width:1750px) {
   body > div > section { margin:40px 200px;padding:40px;background-position:left 15px; }
-  body:not(.floorplans) .grid { grid-template-columns:1fr 1fr 1fr 1fr;grid-gap:20px; }
+  body:not(.floorplans) .grid { grid-template-columns:1fr 1fr 1fr 1fr 1fr;grid-gap:20px; }
   .floorplans section .grid { grid-template-columns:1fr 1fr 1fr;grid-gap:40px; }
   .floorplans section .grid, .detail { margin-left:100px;margin-right:100px; }
   .board { columns:6; }
