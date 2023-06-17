@@ -64,6 +64,7 @@
         <div class="names">
           <h4>Names <span></span></h4>
           <ul class="tabs accounts" style="">
+            <li class="all active">all</li>
             <li class="category" target="ali">ali alexander</li>
             <li class="category" target="beanz">tracy beanz</li>
             <li class="category" target="benjamin">noah benjamin</li>
@@ -13270,11 +13271,6 @@
     </div>
     <script>
       $(function(){
-        $('.all').click(function(){
-          $('.category').removeClass('active');
-          $(this).addClass('active');
-            $('.tweets div').fadeIn(200);
-        });
         $('.category').click(function(){
           $('.all').removeClass('active');
           $('.category').removeClass('active');
@@ -13292,6 +13288,14 @@
           });
 
         });
+
+        $('.all').click(function(){
+          $('.category').removeClass('active');
+          $(this).addClass('active');
+          $('.tweets .container section').removeClass('hide', 200);
+          $('.tweets .container section div').removeClass('hide', 200);
+        });
+
         $('.names h4 span').click(function(){
           $('.accounts').fadeToggle('fast');
           $(this).toggleClass('show');
