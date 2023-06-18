@@ -124,6 +124,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .container section .lindell { background-image:url(../capitol/tweets/sm/lindell.png); }
 .tweets .container section .locke { background-image:url(../capitol/tweets/sm/locke.png); }
 .tweets .container section .loh { background-image:url(../capitol/tweets/sm/loh.png); }
+.tweets .container section .luna { background-image:url(../capitol/tweets/sm/luna.png); }
 .tweets .container section .loudon { background-image:url(../capitol/tweets/sm/loudon.png); }
 .tweets .container section .lutchman { background-image:url(../capitol/tweets/sm/lutchman.png); }
 .tweets .container section .megan { background-image:url(../capitol/tweets/sm/megan.png); }
