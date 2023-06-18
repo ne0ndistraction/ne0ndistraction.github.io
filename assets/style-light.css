@@ -114,6 +114,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .container section .vernon { background-image:url(../capitol/tweets/sm/vernon.png); }
 .tweets .container section .kakhu { background-image:url(../capitol/tweets/sm/kakhu.png); }
 .tweets .container section .kirk { background-image:url(../capitol/tweets/sm/kirk.png); }
+.tweets .container section .klacik { background-image:url(../capitol/tweets/sm/klacik.png); }
 .tweets .container section .kern { background-image:url(../capitol/tweets/sm/kern.png); }
 .tweets .container section .akremer { background-image:url(../capitol/tweets/sm/akremer.png); }
 .tweets .container section .kkremer { background-image:url(../capitol/tweets/sm/kkremer.png); }
