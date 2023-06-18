@@ -73,6 +73,7 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .container section .ali { background-image:url(../capitol/tweets/sm/ali.png); }
 .tweets .container section .beanz { background-image:url(../capitol/tweets/sm/beanz.png); }
 .tweets .container section .benjamin { background-image:url(../capitol/tweets/sm/benjamin.png); }
+.tweets .container section .benny { background-image:url(../capitol/tweets/sm/benny.png); }
 .tweets .container section .biggs { background-image:url(../capitol/tweets/sm/biggs.png); }
 .tweets .container section .boebert { background-image:url(../capitol/tweets/sm/boebert.png); }
 .tweets .container section .bontempo { background-image:url(../capitol/tweets/sm/bontempo.png); }
