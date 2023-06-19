@@ -151,6 +151,8 @@ section .grid:not(:last-of-type) { margin-bottom:80px; }
 .tweets .container section .tatum { background-image:url(../capitol/tweets/sm/tatum.png); }
 .tweets .container section .tennent { background-image:url(../capitol/tweets/sm/tennent.png); }
 .tweets .container section .trump { background-image:url(../capitol/tweets/sm/trump.png); }
+.tweets .container section .trumpjr { background-image:url(../capitol/tweets/sm/trumpjr.png); }
+.tweets .container section .etrump { background-image:url(../capitol/tweets/sm/etrump.png); }
 .tweets .container section .villa { background-image:url(../capitol/tweets/sm/villa.png); }
 .tweets .container section .walker { background-image:url(../capitol/tweets/sm/walker.png); }
 .tweets .container section .wagner { background-image:url(../capitol/tweets/sm/wagner.png); }
